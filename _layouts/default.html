@@ -1,31 +1,253 @@
----
-layout: compress
----
-
-{% include base_path %}
-
-<!doctype html>
-<html lang="{{ site.locale | slice: 0,2 }}" class="no-js"{% if site.site_theme == "dark" %} data-theme="dark"{% endif %}>
-  <head>
-    {% include head.html %}
-    {% include head/custom.html %}
-  </head>
-
-  <body>
-
-    {% include browser-upgrade.html %}
-    {% include masthead.html %}
-
-    {{ content }}
-
-    <div class="page__footer">
-      <footer>
-        {% include footer/custom.html %}
-        {% include footer.html %}
-      </footer>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #fff;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            display: grid;
+            grid-template-columns: 250px 1fr 250px;
+            gap: 30px;
+            min-height: 100vh;
+        }
+        
+        /* Left Sidebar */
+        .sidebar-left {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            height: fit-content;
+            position: sticky;
+            top: 20px;
+        }
+        
+        .sidebar-left h3 {
+            color: #2c3e50;
+            margin-bottom: 15px;
+            font-size: 1.1em;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 5px;
+        }
+        
+        .sidebar-left ul {
+            list-style: none;
+        }
+        
+        .sidebar-left li {
+            margin-bottom: 8px;
+        }
+        
+        .sidebar-left a {
+            color: #555;
+            text-decoration: none;
+            font-size: 0.9em;
+        }
+        
+        .sidebar-left a:hover {
+            color: #3498db;
+        }
+        
+        /* Main Content */
+        .main-content {
+            background: white;
+            padding: 0;
+        }
+        
+        .main-content h1 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+            font-size: 2.2em;
+            font-weight: 300;
+        }
+        
+        .main-content h2 {
+            color: #34495e;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-size: 1.4em;
+            font-weight: 400;
+        }
+        
+        .main-content p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+        
+        /* Right Sidebar */
+        .sidebar-right {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            height: fit-content;
+            position: sticky;
+            top: 20px;
+        }
+        
+        .sidebar-right h3 {
+            color: #2c3e50;
+            margin-bottom: 15px;
+            font-size: 1.1em;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 5px;
+        }
+        
+        .contact-info {
+            font-size: 0.9em;
+            line-height: 1.4;
+        }
+        
+        .contact-info p {
+            margin-bottom: 10px;
+        }
+        
+        .news-item {
+            margin-bottom: 20px;
+            padding: 15px;
+            background: white;
+            border-radius: 5px;
+            border-left: 3px solid #3498db;
+            font-size: 0.85em;
+        }
+        
+        .news-item strong {
+            color: #2c3e50;
+            display: block;
+            margin-bottom: 5px;
+        }
+        
+        /* Links */
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        /* Publications */
+        .publication {
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .publication:last-child {
+            border-bottom: none;
+        }
+        
+        .publication strong {
+            color: #2c3e50;
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 1024px) {
+            .container {
+                grid-template-columns: 200px 1fr 200px;
+                gap: 20px;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+            
+            .sidebar-left, .sidebar-right {
+                position: static;
+                order: 2;
+            }
+            
+            .main-content {
+                order: 1;
+            }
+            
+            .sidebar-right {
+                order: 3;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .container {
+                padding: 10px;
+            }
+            
+            .sidebar-left, .sidebar-right {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Left Sidebar - Navigation -->
+        <aside class="sidebar-left">
+            <h3>Navigation</h3>
+            <ul>
+                <li><a href="{{ '/' | relative_url }}">Home</a></li>
+                <li><a href="{{ '/publications/' | relative_url }}">Publications</a></li>
+                <li><a href="{{ '/research/' | relative_url }}">Research</a></li>
+                <li><a href="{{ '/teaching/' | relative_url }}">Teaching</a></li>
+                <li><a href="{{ '/could-i-be-your-supervisor/' | relative_url }}">PhD Supervision</a></li>
+            </ul>
+            
+            <h3>Research Areas</h3>
+            <ul>
+                <li><a href="{{ '/publications/#democratic-theory' | relative_url }}">Democratic Theory</a></li>
+                <li><a href="{{ '/publications/#social-epistemology' | relative_url }}">Social Epistemology</a></li>
+                <li><a href="{{ '/publications/#environmental-ethics' | relative_url }}">Environmental Ethics</a></li>
+                <li><a href="{{ '/publications/#methodology' | relative_url }}">Methodology</a></li>
+            </ul>
+        </aside>
+        
+        <!-- Main Content -->
+        <main class="main-content">
+            {{ content }}
+        </main>
+        
+        <!-- Right Sidebar - Contact & News -->
+        <aside class="sidebar-right">
+            <h3>Contact</h3>
+            <div class="contact-info">
+                <p><strong>Email:</strong><br>
+                <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></p>
+                
+                <p><strong>Office hours:</strong><br>
+                {{ site.author.office_hours }}</p>
+                
+                <p><strong>Affiliation:</strong><br>
+                {{ site.author.affiliation }}</p>
+            </div>
+            
+            <h3>Recent News</h3>
+            {% if site.data.news %}
+                {% for item in site.data.news limit:4 %}
+                <div class="news-item">
+                    <strong>{% if item.date %}{{ item.date }} - {% endif %}{{ item.title }}</strong>
+                    {{ item.content }}
+                    {% if item.url %}<br><a href="{{ item.url }}">Read more</a>{% endif %}
+                </div>
+                {% endfor %}
+            {% endif %}
+        </aside>
     </div>
-
-    {% include scripts.html %}
-
-  </body>
+</body>
 </html>
