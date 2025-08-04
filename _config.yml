@@ -17,7 +17,7 @@ repository               : "kaispk/kaispk.github.io"
 # Site Author - The following control what appear as part of the author content on the side bar.
 author:
   # Biographic information
-  avatar           : "kai portrait2.JPG" # Update this with your photo
+  avatar           : "portrait.jpg" # Update this with your photo
   name             : "Kai Spiekermann"
   pronouns         : # example: "he/him"  
   bio              : "Professor of Political Philosophy<br/>London School of Economics"
