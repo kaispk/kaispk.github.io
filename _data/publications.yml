@@ -1,0 +1,46 @@
+# Books
+- title: "An Epistemic Theory of Democracy"
+  authors: "Robert E. Goodin and Kai Spiekermann"
+  year: 2018
+  publisher: "Oxford University Press"
+  type: "book"
+  tags: ["democracy", "epistemic", "book"]
+  url: "https://www.kaispiekermann.net/blog-native/epistemic-theory-of-democracy"
+  featured: true
+
+- title: "The Handbook of Rationality"
+  authors: "Kai Spiekermann (contributor)"
+  year: 2024
+  publisher: "MIT Press"
+  type: "book"
+  tags: ["rationality", "book", "open-access"]
+  url: "https://direct.mit.edu/books/oa-edited-volume/5525/The-Handbook-of-Rationality"
+  note: "Now open access!"
+
+# Journal Articles
+- title: "Good Reasons for Losers"
+  authors: "Kai Spiekermann"
+  year: 2021
+  journal: "Economics and Philosophy"
+  type: "article"
+  tags: ["democracy", "political-theory", "peer-reviewed", "open-access"]
+  url: "#"
+  note: "Open access courtesy of LSE"
+
+# Encyclopedia Entries
+- title: "Jury Theorems"
+  authors: "Franz Dietrich and Kai Spiekermann"
+  year: 2024
+  journal: "Stanford Encyclopedia of Philosophy"
+  type: "encyclopedia"
+  tags: ["democracy", "epistemic", "reference"]
+  url: "https://plato.stanford.edu/entries/jury-theorems/"
+
+# Add more publications as needed
+# - title: "Another Publication"
+#   authors: "Kai Spiekermann"
+#   year: 2023
+#   journal: "Journal Name"
+#   type: "article"
+#   tags: ["tag1", "tag2", "peer-reviewed"]
+#   url: "#"
