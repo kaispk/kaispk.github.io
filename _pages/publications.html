@@ -6,7 +6,7 @@ author_profile: false
 ---
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap" style="margin-bottom: 30px; padding: 15px; background: #f8f9fa; border-radius: 6px; border-left: 3px solid #3498db;">
+  <div class="google-scholar-note">
     You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.
   </div>
 {% endif %}
@@ -14,51 +14,61 @@ author_profile: false
 {% include base_path %}
 
 <style>
-  .publication-item {
-    margin-bottom: 30px;
-    padding: 20px;
-    background: #f8f9fa;
-    border-radius: 8px;
-    border-left: 4px solid #3498db;
+  .google-scholar-note {
+    margin-bottom: 30px; 
+    padding: 15px; 
+    background: #f8f9fa; 
+    border-radius: 6px; 
+    border-left: 3px solid #3498db;
+    font-size: 0.9em;
   }
   
-  .publication-item h3 {
-    margin: 0 0 10px 0;
-    font-size: 1.1em;
-    font-weight: 600;
-    color: #2c3e50;
-    line-height: 1.3;
+  .publication-item {
+    margin-bottom: 20px;
+    font-size: 0.9em;
+    line-height: 1.5;
+  }
+  
+  .publication-item .citation {
+    color: #333;
+    margin-bottom: 8px;
   }
   
   .publication-item .authors {
-    color: #555;
-    font-style: italic;
-    margin-bottom: 8px;
-    font-size: 0.95em;
+    color: #333;
+  }
+  
+  .publication-item .title {
+    font-weight: 600;
+    color: #2c3e50;
   }
   
   .publication-item .venue {
-    color: #666;
-    margin-bottom: 8px;
-    font-weight: 500;
+    font-style: italic;
+    color: #333;
+  }
+  
+  .publication-item .year {
+    color: #333;
   }
   
   .publication-item .excerpt {
-    color: #777;
-    margin: 12px 0;
-    font-size: 0.9em;
+    color: #666;
+    margin: 8px 0 8px 20px;
+    font-size: 0.85em;
     line-height: 1.4;
+    font-style: italic;
   }
   
   .publication-item .links {
-    margin-top: 12px;
+    margin: 5px 0 0 20px;
   }
   
   .publication-item .links a {
     color: #3498db;
     text-decoration: none;
-    margin-right: 15px;
-    font-size: 0.9em;
+    margin-right: 12px;
+    font-size: 0.85em;
   }
   
   .publication-item .links a:hover {
@@ -70,6 +80,7 @@ author_profile: false
     padding-bottom: 10px;
     margin: 40px 0 25px 0;
     color: #2c3e50;
+    font-size: 1.4em;
   }
   
   .category-header:first-of-type {
@@ -133,31 +144,65 @@ author_profile: false
       {% endunless %}
       
       <div class="publication-item">
-        <h3>
-          {% if post.url %}
-            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-          {% else %}
-            {{ post.title }}
+        <div class="citation">
+          {% if post.authors %}
+            <span class="authors">{{ post.authors }}.</span>
           {% endif %}
-        </h3>
-        
-        {% if post.authors %}
-          <div class="authors">{{ post.authors }}</div>
-        {% endif %}
-        
-        {% if post.venue %}
-          <div class="venue">
-            <em>{{ post.venue }}</em>
-            {% if post.date %}
-              ({{ post.date | date: "%Y" }})
-            {% endif %}
-          </div>
-        {% endif %}
+          
+          <span class="title">"{{ post.title }}."</span>
+          
+          {% if post.venue %}
+            <span class="venue">{{ post.venue }}</span>{% if post.date %}, {{ post.date | date: "%Y" }}{% endif %}.
+          {% elsif post.date %}
+            {{ post.date | date: "%Y" }}.
+          {% endif %}
+        </div>
         
         {% if post.excerpt %}
           <div class="excerpt">{{ post.excerpt }}</div>
         {% endif %}
         
+        {% if post.paperurl and post.paperurl != "#" or post.slidesurl or post.bibtexurl or post.url %}
+          <div class="links">
+            {% if post.paperurl and post.paperurl != "#" %}
+              <a href="{{ post.paperurl }}">Paper</a>
+            {% endif %}
+            {% if post.slidesurl %}
+              <a href="{{ post.slidesurl }}">Slides</a>
+            {% endif %}
+            {% if post.bibtexurl %}
+              <a href="{{ post.bibtexurl }}">BibTeX</a>
+            {% endif %}
+            {% if post.url %}
+              <a href="{{ post.url | relative_url }}">Details</a>
+            {% endif %}
+          </div>
+        {% endif %}
+      </div>
+    {% endfor %}
+  {% endfor %}
+{% else %}
+  {% for post in site.publications reversed %}
+    <div class="publication-item">
+      <div class="citation">
+        {% if post.authors %}
+          <span class="authors">{{ post.authors }}.</span>
+        {% endif %}
+        
+        <span class="title">"{{ post.title }}."</span>
+        
+        {% if post.venue %}
+          <span class="venue">{{ post.venue }}</span>{% if post.date %}, {{ post.date | date: "%Y" }}{% endif %}.
+        {% elsif post.date %}
+          {{ post.date | date: "%Y" }}.
+        {% endif %}
+      </div>
+      
+      {% if post.excerpt %}
+        <div class="excerpt">{{ post.excerpt }}</div>
+      {% endif %}
+      
+      {% if post.paperurl and post.paperurl != "#" or post.slidesurl or post.bibtexurl or post.url %}
         <div class="links">
           {% if post.paperurl and post.paperurl != "#" %}
             <a href="{{ post.paperurl }}">Paper</a>
@@ -172,51 +217,7 @@ author_profile: false
             <a href="{{ post.url | relative_url }}">Details</a>
           {% endif %}
         </div>
-      </div>
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    <div class="publication-item">
-      <h3>
-        {% if post.url %}
-          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-        {% else %}
-          {{ post.title }}
-        {% endif %}
-      </h3>
-      
-      {% if post.authors %}
-        <div class="authors">{{ post.authors }}</div>
       {% endif %}
-      
-      {% if post.venue %}
-        <div class="venue">
-          <em>{{ post.venue }}</em>
-          {% if post.date %}
-            ({{ post.date | date: "%Y" }})
-          {% endif %}
-        </div>
-      {% endif %}
-      
-      {% if post.excerpt %}
-        <div class="excerpt">{{ post.excerpt }}</div>
-      {% endif %}
-      
-      <div class="links">
-        {% if post.paperurl and post.paperurl != "#" %}
-          <a href="{{ post.paperurl }}">Paper</a>
-        {% endif %}
-        {% if post.slidesurl %}
-          <a href="{{ post.slidesurl }}">Slides</a>
-        {% endif %}
-        {% if post.bibtexurl %}
-          <a href="{{ post.bibtexurl }}">BibTeX</a>
-        {% endif %}
-        {% if post.url %}
-          <a href="{{ post.url | relative_url }}">Details</a>
-        {% endif %}
-      </div>
     </div>
   {% endfor %}
 {% endif %}
