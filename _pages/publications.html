@@ -1,15 +1,123 @@
 ---
-layout: archive
+layout: single-no-sidebar
 title: "Publications"
 permalink: /publications/
-author_profile: true
+author_profile: false
 ---
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+  <div class="wordwrap" style="margin-bottom: 30px; padding: 15px; background: #f8f9fa; border-radius: 6px; border-left: 3px solid #3498db;">
+    You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.
+  </div>
 {% endif %}
 
 {% include base_path %}
+
+<style>
+  .publication-item {
+    margin-bottom: 30px;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    border-left: 4px solid #3498db;
+  }
+  
+  .publication-item h3 {
+    margin: 0 0 10px 0;
+    font-size: 1.1em;
+    font-weight: 600;
+    color: #2c3e50;
+    line-height: 1.3;
+  }
+  
+  .publication-item .authors {
+    color: #555;
+    font-style: italic;
+    margin-bottom: 8px;
+    font-size: 0.95em;
+  }
+  
+  .publication-item .venue {
+    color: #666;
+    margin-bottom: 8px;
+    font-weight: 500;
+  }
+  
+  .publication-item .excerpt {
+    color: #777;
+    margin: 12px 0;
+    font-size: 0.9em;
+    line-height: 1.4;
+  }
+  
+  .publication-item .links {
+    margin-top: 12px;
+  }
+  
+  .publication-item .links a {
+    color: #3498db;
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 0.9em;
+  }
+  
+  .publication-item .links a:hover {
+    text-decoration: underline;
+  }
+  
+  .category-header {
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+    margin: 40px 0 25px 0;
+    color: #2c3e50;
+  }
+  
+  .category-header:first-of-type {
+    margin-top: 20px;
+  }
+  
+  .research-area-section {
+    margin-top: 50px;
+    padding-top: 30px;
+    border-top: 1px solid #ddd;
+  }
+  
+  .research-area-section h2 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+  
+  .research-area-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .research-area-item {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 6px;
+    border-left: 3px solid #27ae60;
+  }
+  
+  .research-area-item h4 {
+    margin: 0 0 10px 0;
+    color: #2c3e50;
+    font-size: 1em;
+  }
+  
+  .research-area-item ul {
+    margin: 0;
+    padding-left: 20px;
+  }
+  
+  .research-area-item li {
+    margin-bottom: 5px;
+    font-size: 0.9em;
+    color: #555;
+  }
+</style>
 
 <!-- New style rendering if publication categories are defined -->
 {% if site.publication_category %}
@@ -20,17 +128,145 @@ author_profile: true
         {% continue %}
       {% endif %}
       {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
+        <h2 class="category-header">{{ category[1].title }}</h2>
         {% assign title_shown = true %}
       {% endunless %}
-      {% include archive-single.html %}
+      
+      <div class="publication-item">
+        <h3>
+          {% if post.url %}
+            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          {% else %}
+            {{ post.title }}
+          {% endif %}
+        </h3>
+        
+        {% if post.authors %}
+          <div class="authors">{{ post.authors }}</div>
+        {% endif %}
+        
+        {% if post.venue %}
+          <div class="venue">
+            <em>{{ post.venue }}</em>
+            {% if post.date %}
+              ({{ post.date | date: "%Y" }})
+            {% endif %}
+          </div>
+        {% endif %}
+        
+        {% if post.excerpt %}
+          <div class="excerpt">{{ post.excerpt }}</div>
+        {% endif %}
+        
+        <div class="links">
+          {% if post.paperurl and post.paperurl != "#" %}
+            <a href="{{ post.paperurl }}">Paper</a>
+          {% endif %}
+          {% if post.slidesurl %}
+            <a href="{{ post.slidesurl }}">Slides</a>
+          {% endif %}
+          {% if post.bibtexurl %}
+            <a href="{{ post.bibtexurl }}">BibTeX</a>
+          {% endif %}
+          {% if post.url %}
+            <a href="{{ post.url | relative_url }}">Details</a>
+          {% endif %}
+        </div>
+      </div>
     {% endfor %}
   {% endfor %}
 {% else %}
   {% for post in site.publications reversed %}
-    {% include archive-single.html %}
+    <div class="publication-item">
+      <h3>
+        {% if post.url %}
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        {% else %}
+          {{ post.title }}
+        {% endif %}
+      </h3>
+      
+      {% if post.authors %}
+        <div class="authors">{{ post.authors }}</div>
+      {% endif %}
+      
+      {% if post.venue %}
+        <div class="venue">
+          <em>{{ post.venue }}</em>
+          {% if post.date %}
+            ({{ post.date | date: "%Y" }})
+          {% endif %}
+        </div>
+      {% endif %}
+      
+      {% if post.excerpt %}
+        <div class="excerpt">{{ post.excerpt }}</div>
+      {% endif %}
+      
+      <div class="links">
+        {% if post.paperurl and post.paperurl != "#" %}
+          <a href="{{ post.paperurl }}">Paper</a>
+        {% endif %}
+        {% if post.slidesurl %}
+          <a href="{{ post.slidesurl }}">Slides</a>
+        {% endif %}
+        {% if post.bibtexurl %}
+          <a href="{{ post.bibtexurl }}">BibTeX</a>
+        {% endif %}
+        {% if post.url %}
+          <a href="{{ post.url | relative_url }}">Details</a>
+        {% endif %}
+      </div>
+    </div>
   {% endfor %}
 {% endif %}
 
-
-
+<div class="research-area-section">
+  <h2>Publications by Research Area</h2>
+  
+  <div class="research-area-list">
+    <div class="research-area-item">
+      <h4>Democratic Theory & Social Epistemology</h4>
+      <ul>
+        {% for post in site.publications %}
+          {% if post.tags contains "democracy" or post.tags contains "epistemic" or post.title contains "Democracy" or post.title contains "Jury" %}
+            <li>{{ post.title }} ({{ post.date | date: "%Y" }})</li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+    
+    <div class="research-area-item">
+      <h4>Environmental Ethics</h4>
+      <ul>
+        {% for post in site.publications %}
+          {% if post.tags contains "environment" or post.title contains "Climate" or post.title contains "Environmental" %}
+            <li>{{ post.title }} ({{ post.date | date: "%Y" }})</li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+    
+    <div class="research-area-item">
+      <h4>Rationality & Decision Theory</h4>
+      <ul>
+        {% for post in site.publications %}
+          {% if post.tags contains "rationality" or post.title contains "Rationality" or post.title contains "Reason" %}
+            <li>{{ post.title }} ({{ post.date | date: "%Y" }})</li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+    
+    <div class="research-area-item">
+      <h4>Philosophy of Social Science</h4>
+      <ul>
+        {% for post in site.publications %}
+          {% if post.tags contains "methodology" or post.title contains "Theory" %}
+            <li>{{ post.title }} ({{ post.date | date: "%Y" }})</li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>

@@ -10,6 +10,11 @@ redirect_from:
 
 # Kai Spiekermann
 
+<div class="portrait-section">
+<img src="/images/portrait.jpg" alt="Kai Spiekermann">
+<div class="caption">Professor of Political Philosophy, LSE</div>
+</div>
+
 I'm a Professor of Political Philosophy in the Department of Government at the London School of Economics. I work in democratic theory, the philosophy of the social sciences and topics relating to politics, philosophy and economics (PPE) more generally.
 
 Among my research interests are group decisions, social epistemology (and especially epistemic justifications of democracy), the ethics of environmental change, and the methodology of political theory and political science.
@@ -43,8 +48,6 @@ LSE won a <a href="https://www.lse.ac.uk/News/Latest-news-from-LSE/2024/a-Januar
 <strong>2024 - Handbook of Rationality Open Access</strong>
 The <a href="https://direct.mit.edu/books/oa-edited-volume/5525/The-Handbook-of-Rationality">Handbook of Rationality</a> is now open access!
 </div>
-
-<p><a href="/news/">View all news →</a></p>
 
 ## Research Areas
 

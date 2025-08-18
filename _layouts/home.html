@@ -29,7 +29,7 @@ layout: compress
         margin: 0 auto;
         padding: 20px;
         display: grid;
-        grid-template-columns: 1fr 300px;
+        grid-template-columns: 2fr 1fr;
         gap: 40px;
         min-height: 100vh;
       }
@@ -40,7 +40,30 @@ layout: compress
         padding: 0;
       }
       
-      /* Contact info integrated in main content */
+      .main-content h1 {
+        margin-bottom: 20px;
+      }
+      
+      /* Portrait styling */
+      .portrait-section {
+        text-align: left;
+        margin: 0 0 30px 0;
+      }
+      
+      .portrait-section img {
+        max-width: 200px;
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      }
+      
+      .portrait-section .caption {
+        margin-top: 8px;
+        font-size: 0.8em;
+        color: #666;
+        font-style: italic;
+      }
       .contact-section {
         background: #f8f9fa;
         padding: 20px;
@@ -57,7 +80,7 @@ layout: compress
       /* Right sidebar for publications */
       .publications-sidebar {
         background: #f8f9fa;
-        padding: 25px;
+        padding: 30px;
         border-radius: 8px;
         height: fit-content;
         position: sticky;
@@ -67,9 +90,11 @@ layout: compress
       .publications-sidebar h3 {
         color: #2c3e50;
         margin-bottom: 20px;
-        font-size: 1.1em;
-        border-bottom: 2px solid #3498db;
-        padding-bottom: 8px;
+        margin-top: 0;
+        font-size: 1.8em;
+        font-weight: 300;
+        border-bottom: none;
+        padding-bottom: 0;
       }
       
       .featured-publication {
@@ -146,12 +171,16 @@ layout: compress
       /* Responsive design */
       @media (max-width: 1024px) {
         .custom-container {
-          grid-template-columns: 1fr 250px;
+          grid-template-columns: 1.5fr 1fr;
           gap: 30px;
         }
         
         .publications-sidebar {
-          padding: 20px;
+          padding: 25px;
+        }
+        
+        .portrait-section img {
+          max-width: 150px;
         }
       }
       
