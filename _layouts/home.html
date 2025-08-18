@@ -1,0 +1,263 @@
+---
+layout: compress
+---
+
+{% include base_path %}
+
+<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 }}" class="no-js"{% if site.site_theme == "dark" %} data-theme="dark"{% endif %}>
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+    <style>
+      /* Custom two-column layout styles */
+      body {
+        font-size: 14px; /* Smaller base font size */
+        line-height: 1.5;
+      }
+      
+      .page__content {
+        font-size: 14px; /* Smaller content font */
+      }
+      
+      h1 { font-size: 1.8em; }
+      h2 { font-size: 1.4em; }
+      h3 { font-size: 1.2em; }
+      
+      .custom-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+        display: grid;
+        grid-template-columns: 1fr 300px;
+        gap: 40px;
+        min-height: 100vh;
+      }
+      
+      /* Main content area */
+      .main-content {
+        background: white;
+        padding: 0;
+      }
+      
+      /* Contact info integrated in main content */
+      .contact-section {
+        background: #f8f9fa;
+        padding: 20px;
+        border-radius: 8px;
+        margin: 20px 0;
+        border-left: 4px solid #3498db;
+      }
+      
+      .contact-section h3 {
+        margin-top: 0;
+        color: #2c3e50;
+      }
+      
+      /* Right sidebar for publications */
+      .publications-sidebar {
+        background: #f8f9fa;
+        padding: 25px;
+        border-radius: 8px;
+        height: fit-content;
+        position: sticky;
+        top: 20px;
+      }
+      
+      .publications-sidebar h3 {
+        color: #2c3e50;
+        margin-bottom: 20px;
+        font-size: 1.1em;
+        border-bottom: 2px solid #3498db;
+        padding-bottom: 8px;
+      }
+      
+      .featured-publication {
+        margin-bottom: 25px;
+        padding: 15px;
+        background: white;
+        border-radius: 6px;
+        border-left: 3px solid #3498db;
+        font-size: 0.9em;
+      }
+      
+      .featured-publication h4 {
+        margin: 0 0 8px 0;
+        font-size: 1em;
+        font-weight: 600;
+        color: #2c3e50;
+        line-height: 1.3;
+      }
+      
+      .featured-publication .authors {
+        color: #666;
+        font-style: italic;
+        margin-bottom: 5px;
+      }
+      
+      .featured-publication .venue {
+        color: #555;
+        margin-bottom: 8px;
+        font-weight: 500;
+      }
+      
+      .featured-publication .year {
+        color: #888;
+        font-size: 0.9em;
+      }
+      
+      .featured-publication a {
+        color: #3498db;
+        text-decoration: none;
+        font-size: 0.9em;
+      }
+      
+      .featured-publication a:hover {
+        text-decoration: underline;
+      }
+      
+      /* News items */
+      .news-item {
+        margin-bottom: 20px;
+        padding: 15px;
+        background: #f8f9fa;
+        border-radius: 6px;
+        border-left: 3px solid #27ae60;
+        font-size: 0.9em;
+      }
+      
+      .news-item strong {
+        color: #2c3e50;
+        display: block;
+        margin-bottom: 8px;
+        font-size: 0.95em;
+      }
+      
+      /* Links */
+      a {
+        color: #3498db;
+        text-decoration: none;
+      }
+      
+      a:hover {
+        text-decoration: underline;
+      }
+      
+      /* Responsive design */
+      @media (max-width: 1024px) {
+        .custom-container {
+          grid-template-columns: 1fr 250px;
+          gap: 30px;
+        }
+        
+        .publications-sidebar {
+          padding: 20px;
+        }
+      }
+      
+      @media (max-width: 768px) {
+        body {
+          font-size: 13px;
+        }
+        
+        .custom-container {
+          grid-template-columns: 1fr;
+          gap: 20px;
+          padding: 15px;
+        }
+        
+        .publications-sidebar {
+          position: static;
+          order: 2;
+        }
+        
+        .main-content {
+          order: 1;
+        }
+      }
+      
+      /* Hide default author profile */
+      .sidebar {
+        display: none !important;
+      }
+      
+      /* Adjust main content width */
+      #main {
+        padding-left: 0 !important;
+      }
+      
+      .page {
+        width: 100% !important;
+        padding-right: 0 !important;
+      }
+    </style>
+  </head>
+
+  <body>
+    {% include browser-upgrade.html %}
+    {% include masthead.html %}
+
+    <div class="custom-container">
+      <!-- Main Content -->
+      <main class="main-content">
+        <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+          <div class="page__inner-wrap">
+            <section class="page__content" itemprop="text">
+              {{ content }}
+            </section>
+          </div>
+        </article>
+      </main>
+      
+      <!-- Publications Sidebar -->
+      <aside class="publications-sidebar">
+        <h3>Featured Publications</h3>
+        
+        <div class="featured-publication">
+          <h4>An Epistemic Theory of Democracy</h4>
+          <div class="authors">Robert E. Goodin and Kai Spiekermann</div>
+          <div class="venue">Oxford University Press</div>
+          <div class="year">2018</div>
+          <a href="/publication/2018-epistemic-theory-democracy">Read more</a>
+        </div>
+        
+        <div class="featured-publication">
+          <h4>Good Reasons for Losers</h4>
+          <div class="authors">Kai Spiekermann</div>
+          <div class="venue">Economics and Philosophy</div>
+          <div class="year">2021</div>
+          <a href="/publication/2021-good-reasons-losers">Read more</a>
+        </div>
+        
+        <div class="featured-publication">
+          <h4>Jury Theorems</h4>
+          <div class="authors">Franz Dietrich and Kai Spiekermann</div>
+          <div class="venue">Stanford Encyclopedia of Philosophy</div>
+          <div class="year">2024</div>
+          <a href="https://plato.stanford.edu/entries/jury-theorems/">Read more</a>
+        </div>
+        
+        <div class="featured-publication">
+          <h4>The Handbook of Rationality</h4>
+          <div class="authors">Kai Spiekermann (contributor)</div>
+          <div class="venue">MIT Press</div>
+          <div class="year">2024</div>
+          <a href="https://direct.mit.edu/books/oa-edited-volume/5525/The-Handbook-of-Rationality">Read more</a>
+        </div>
+        
+        <p style="margin-top: 20px; font-size: 0.9em;">
+          <a href="/publications/">→ View all publications</a>
+        </p>
+      </aside>
+    </div>
+
+    <div class="page__footer">
+      <footer>
+        {% include footer/custom.html %}
+        {% include footer.html %}
+      </footer>
+    </div>
+
+    {% include scripts.html %}
+  </body>
+</html>
