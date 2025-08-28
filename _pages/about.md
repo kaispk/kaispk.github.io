@@ -12,7 +12,7 @@ redirect_from:
 
 <div class="portrait-section">
 <img src="/images/portrait.jpg" alt="Kai Spiekermann">
-<div class="caption">Professor of Political Philosophy, LSE</div>
+<div class="caption">Dr Kai Spiekermann, LSE</div>
 </div>
 
 I'm a Professor of Political Philosophy in the Department of Government at the London School of Economics. I work in democratic theory, the philosophy of the social sciences and topics relating to politics, philosophy and economics (PPE) more generally.
@@ -24,7 +24,6 @@ Among my research interests are group decisions, social epistemology (and especi
 <p><strong>Email:</strong> <a href="mailto:k.spiekermann@lse.ac.uk">k.spiekermann@lse.ac.uk</a></p>
 <p><strong>Office hours:</strong> Please book on the LSE Student Hub app</p>
 <p><strong>Affiliation:</strong> Department of Government, London School of Economics</p>
-<p><strong>Location:</strong> London, UK</p>
 </div>
 
 ## Recent News
