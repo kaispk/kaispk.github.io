@@ -19,6 +19,8 @@ I'm a Professor of Political Philosophy in the Department of Government at the L
 
 Among my research interests are group decisions, social epistemology (and especially epistemic justifications of democracy), the ethics of environmental change, and the methodology of political theory and political science.
 
+<div style="clear: both;"></div>
+
 <div class="contact-section">
 <h3>Contact Information</h3>
 <p><strong>Email:</strong> <a href="mailto:k.spiekermann@lse.ac.uk">k.spiekermann@lse.ac.uk</a></p>
