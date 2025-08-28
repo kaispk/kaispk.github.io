@@ -2,6 +2,7 @@
 title: "An Epistemic Theory of Democracy"
 collection: publications
 category: books
+tags: ["featured"]
 permalink: /publication/2018-epistemic-theory-democracy
 excerpt: 'This book develops a comprehensive epistemic theory of democracy, arguing that democratic procedures are valuable because they tend to produce good decisions.'
 date: 2018-01-01

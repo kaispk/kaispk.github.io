@@ -248,49 +248,44 @@ layout: compress
         </article>
       </main>
       
-      <!-- Publications Sidebar -->
+       <!-- Publications Sidebar -->
       <aside class="publications-sidebar">
         <h3>Featured Publications</h3>
         
-        <div class="featured-publication">
-          <div class="citation">
-            <span class="authors">Goodin, Robert E. and Kai Spiekermann.</span>
-            <span class="title">"An Epistemic Theory of Democracy."</span>
-            <span class="venue">Oxford University Press,</span>
-            <span class="year">2018.</span>
-          </div>
-          <a href="/publication/2018-epistemic-theory-democracy">Details</a>
-        </div>
+        {% for post in site.publications reversed %}
+          {% if post.tags contains "featured" %}
+            <div class="featured-publication">
+              <div class="citation">
+                {% if post.authors %}
+                  <span class="authors">{{ post.authors }}.</span>
+                {% endif %}
+                <span class="title">"{{ post.title }}."</span>
+                {% if post.venue %}
+                  <span class="venue">{{ post.venue }},</span>
+                {% endif %}
+                {% if post.date %}
+                  <span class="year">{{ post.date | date: "%Y" }}.</span>
+                {% endif %}
+              </div>
+              {% if post.paperurl and post.paperurl != "#" %}
+                <a href="{{ post.paperurl }}">Link</a>
+              {% elsif post.url %}
+                <a href="{{ post.url | relative_url }}">Details</a>
+              {% endif %}
+            </div>
+          {% endif %}
+        {% endfor %}
         
-        <div class="featured-publication">
-          <div class="citation">
-            <span class="authors">Spiekermann, Kai.</span>
-            <span class="title">"Good Reasons for Losers."</span>
-            <span class="venue">Economics and Philosophy,</span>
-            <span class="year">2021.</span>
-          </div>
-          <a href="/publication/2021-good-reasons-losers">Details</a>
-        </div>
+        {% assign featured_count = 0 %}
+        {% for post in site.publications %}
+          {% if post.tags contains "featured" %}
+            {% assign featured_count = featured_count | plus: 1 %}
+          {% endif %}
+        {% endfor %}
         
-        <div class="featured-publication">
-          <div class="citation">
-            <span class="authors">Dietrich, Franz and Kai Spiekermann.</span>
-            <span class="title">"Jury Theorems."</span>
-            <span class="venue">Stanford Encyclopedia of Philosophy,</span>
-            <span class="year">2024.</span>
-          </div>
-          <a href="https://plato.stanford.edu/entries/jury-theorems/">Link</a>
-        </div>
-        
-        <div class="featured-publication">
-          <div class="citation">
-            <span class="authors">Spiekermann, Kai (contributor).</span>
-            <span class="title">"The Handbook of Rationality."</span>
-            <span class="venue">MIT Press,</span>
-            <span class="year">2024.</span>
-          </div>
-          <a href="https://direct.mit.edu/books/oa-edited-volume/5525/The-Handbook-of-Rationality">Link</a>
-        </div>
+        {% if featured_count == 0 %}
+          <p style="font-style: italic; color: #666; font-size: 0.85em;">No publications currently tagged as "featured".</p>
+        {% endif %}
         
         <p style="margin-top: 20px; font-size: 0.9em;">
           <a href="/publications/">→ View all publications</a>
