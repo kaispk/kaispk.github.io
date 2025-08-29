@@ -2,13 +2,22 @@
 title: "Jury Theorems"
 collection: publications
 category: encyclopedia
-permalink: /publication/2021-jury-theorems-sep
-excerpt: 'Comprehensive entry on jury theorems for the Stanford Encyclopedia of Philosophy, covering classical and modern developments in the field.'
+layout: publication
+permalink: /publication/2021-jury-theorems
+excerpt: 'Jury theorems are mathematical theorems about the ability of collectives to make correct decisions. Several jury theorems carry the optimistic message that, in suitable circumstances, "crowds are wise": many individuals together tend to make good decisions, outperforming fewer or just one individual.'
 date: 2021-01-01
-venue: 'Stanford Encyclopedia of Philosophy'
-authors: 'Franz Dietrich and Kai Spiekermann'
-paperurl: 'https://plato.stanford.edu/entries/jury-theorems/'
-citation: 'Dietrich, Franz and Kai Spiekermann. (2021). "Jury Theorems." Stanford Encyclopedia of Philosophy.'
+venue: 'The Stanford Encyclopedia of Philosophy'
+authors: 'Dietrich, Franz and Kai Spiekermann'
+editor: 'Edward N. Zalta'
+edition: 'Winter 2021'
+publisher: 'Metaphysics Research Lab, Stanford University'
+paperurl: 'https://plato.stanford.edu/archives/win2021/entries/jury-theorems/'
+citation: 'Dietrich, Franz, and Kai Spiekermann. "Jury Theorems." In *The Stanford Encyclopedia of Philosophy*, Winter 2021 edition, edited by Edward N. Zalta. Stanford: Metaphysics Research Lab, Stanford University, 2021.'
+tags: ["featured", "democracy", "epistemic", "reference", "jury-theorems"]
 ---
 
-This comprehensive encyclopedia entry examines jury theorems - mathematical results about the reliability of group decision-making. Co-authored with Franz Dietrich, the entry covers both classical results like Condorcet's Jury Theorem and modern developments in the field.
+Jury theorems are mathematical theorems about the ability of collectives to make correct decisions. Several jury theorems carry the optimistic message that, in suitable circumstances, "crowds are wise": many individuals together (using, for instance, majority voting) tend to make good decisions, outperforming fewer or just one individual. 
+
+Jury theorems form the technical core of epistemic arguments for democracy, and provide probabilistic tools for reasoning about the epistemic quality of collective decisions. The popularity of jury theorems spans across various disciplines such as economics, political science, philosophy, and computer science.
+
+This entry reviews and critically assesses a variety of jury theorems. It first discusses Condorcet's initial jury theorem, and then progressively introduces jury theorems with more appropriate premises and conclusions. It explains the philosophical foundations, and relates jury theorems to diversity, deliberation, shared evidence, shared perspectives, and other phenomena.
