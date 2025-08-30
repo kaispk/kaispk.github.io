@@ -1,165 +1,317 @@
 ---
-layout: default
+layout: single-no-sidebar
+title: "Publications"
+permalink: /publications/
+author_profile: false
 ---
+
+{% if site.author.googlescholar %}
+  <div class="google-scholar-note">
+    You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.
+  </div>
+{% endif %}
 
 {% include base_path %}
 
 <style>
-  /* Hide sidebar and expand content */
-  .sidebar {
-    display: none !important;
-  }
-  
-  #main {
-    padding-left: 0 !important;
-  }
-  
-  .page {
-    width: 100% !important;
-    padding-right: 0 !important;
-    max-width: 1000px;
-    margin: 0 auto;
-  }
-  
-  body {
-    font-size: 14px;
-  }
-  
-  .page__content {
-    font-size: 14px;
-  }
-  
-  h1 { 
-    font-size: 1.8em; 
-    color: #2c3e50;
-    margin-bottom: 20px;
-    font-weight: 300;
-  }
-  
-  h2 { 
-    font-size: 1.4em; 
-    color: #34495e;
-    margin-top: 25px;
-    margin-bottom: 15px;
-  }
-  
-  h3 { 
-    font-size: 1.2em; 
-    color: #34495e;
-  }
-  
-  .publication-meta {
-    background: #f8f9fa;
-    padding: 20px;
-    border-radius: 8px;
-    margin: 20px 0;
-    border-left: 4px solid #3498db;
+  .google-scholar-note {
+    margin-bottom: 30px; 
+    padding: 15px; 
+    background: #f8f9fa; 
+    border-radius: 6px; 
+    border-left: 3px solid #3498db;
     font-size: 0.9em;
   }
   
-  .publication-meta h3 {
-    margin-top: 0;
+  .publication-item {
+    margin-bottom: 20px;
+    font-size: 0.9em;
+    line-height: 1.5;
+  }
+  
+  .publication-item .citation {
+    color: #333;
+    margin-bottom: 8px;
+  }
+  
+  .publication-item .authors {
+    color: #333;
+  }
+  
+  .publication-item .title {
+    font-weight: 600;
     color: #2c3e50;
-    font-size: 1.1em;
   }
   
-  .publication-meta .citation-info {
-    margin-bottom: 15px;
+  .publication-item .venue {
+    font-style: italic;
+    color: #333;
   }
   
-  .publication-meta .links {
-    margin-top: 15px;
+  .publication-item .year {
+    color: #333;
   }
   
-  .publication-meta .links a {
-    display: inline-block;
-    padding: 8px 15px;
-    margin-right: 10px;
-    margin-bottom: 5px;
-    background: #3498db;
-    color: white;
+  .publication-item .excerpt {
+    color: #666;
+    margin: 8px 0 8px 20px;
+    font-size: 0.85em;
+    line-height: 1.4;
+    font-style: italic;
+  }
+  
+  .publication-item .links {
+    margin: 5px 0 0 20px;
+  }
+  
+  .publication-item .links a {
+    color: #3498db;
     text-decoration: none;
-    border-radius: 4px;
+    margin-right: 12px;
     font-size: 0.85em;
   }
   
-  .publication-meta .links a:hover {
-    background: #2980b9;
+  .publication-item .links a:hover {
+    text-decoration: underline;
   }
   
-  .back-link {
+  .category-header {
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+    margin: 40px 0 25px 0;
+    color: #2c3e50;
+    font-size: 1.4em;
+  }
+  
+  .category-header:first-of-type {
+    margin-top: 20px;
+  }
+  
+  .research-area-section {
+    margin-top: 50px;
+    padding-top: 30px;
+    border-top: 1px solid #ddd;
+  }
+  
+  .research-area-section h2 {
+    color: #2c3e50;
     margin-bottom: 20px;
   }
   
-  .back-link a {
-    color: #3498db;
-    text-decoration: none;
-    font-size: 0.9em;
+  .research-area-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
   }
   
-  .back-link a:hover {
-    text-decoration: underline;
+  .research-area-item {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 6px;
+    border-left: 3px solid #27ae60;
+  }
+  
+  .research-area-item h4 {
+    margin: 0 0 10px 0;
+    color: #2c3e50;
+    font-size: 1em;
+  }
+  
+  .research-area-item ul {
+    margin: 0;
+    padding-left: 20px;
+  }
+  
+  .research-area-item li {
+    margin-bottom: 5px;
+    font-size: 0.9em;
+    color: #555;
   }
 </style>
 
-<div id="main" role="main">
-  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
-    {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
-    {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date: "%B %d, %Y" }}">{% endif %}
-
-    <div class="page__inner-wrap">
-      <div class="back-link">
-        <a href="/publications/">← Back to Publications</a>
-      </div>
+<!-- Publications organized by category -->
+{% if site.publication_category %}
+  {% for category in site.publication_category  %}
+    {% assign title_shown = false %}
+    {% for post in site.publications reversed %}
+      {% if post.category != category[0] %}
+        {% continue %}
+      {% endif %}
+      {% unless title_shown %}
+        <h2 class="category-header">{{ category[1].title }}</h2>
+        {% assign title_shown = true %}
+      {% endunless %}
       
-      <header>
-        {% if page.title %}
-          <h1 class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>
+      <div class="publication-item">
+        <div class="citation">
+          {% if post.category == "books" %}
+            <!-- CHICAGO STYLE BOOKS: Author. Title. Place: Publisher, Year. -->
+            {% if post.authors %}{{ post.authors }}. {% endif %}
+            <em>{{ post.title }}</em>. 
+            {% if post.place %}{{ post.place }}: {% endif %}
+            {% if post.venue %}{{ post.venue }}, {% endif %}
+            {% if post.date %}{{ post.date | date: "%Y" }}.{% endif %}
+            
+          {% elsif post.category == "manuscripts" %}
+            <!-- CHICAGO STYLE JOURNAL ARTICLES: Author. "Title." Journal Volume, no. Issue (Year): pages. -->
+            {% if post.authors %}{{ post.authors }}. {% endif %}
+            "{{ post.title }}." 
+            {% if post.venue %}<em>{{ post.venue }}</em>{% endif %}
+            {% if post.volume %} {{ post.volume }}{% endif %}
+            {% if post.issue %}, no. {{ post.issue }}{% endif %}
+            {% if post.date %} ({{ post.date | date: "%Y" }}){% endif %}
+            {% if post.pages %}: {{ post.pages }}{% endif %}.
+            
+          {% elsif post.category == "encyclopedia" %}
+            <!-- CHICAGO STYLE ENCYCLOPEDIA: Author. "Title." In Encyclopedia. Edited by Editor. Year. -->
+            {% if post.authors %}{{ post.authors }}. {% endif %}
+            "{{ post.title }}." 
+            {% if post.venue %}In <em>{{ post.venue }}</em>.{% endif %}
+            {% if post.editor %} Edited by {{ post.editor }}.{% endif %}
+            {% if post.date %} {{ post.date | date: "%Y" }}.{% endif %}
+            
+          {% elsif post.category == "chapters" %}
+            <!-- CHICAGO STYLE CHAPTERS: Author. "Chapter Title." In Book Title, edited by Editor, pages. Place: Publisher, Year. -->
+            {% if post.authors %}{{ post.authors }}. {% endif %}
+            "{{ post.title }}." 
+            {% if post.booktitle %}In <em>{{ post.booktitle }}</em>{% endif %}
+            {% if post.editor %}, edited by {{ post.editor }}{% endif %}
+            {% if post.pages %}, {{ post.pages }}{% endif %}. 
+            {% if post.place %}{{ post.place }}: {% endif %}
+            {% if post.venue %}{{ post.venue }}{% endif %}
+            {% if post.date %}, {{ post.date | date: "%Y" }}{% endif %}.
+            
+          {% elsif post.category == "conferences" %}
+            <!-- CHICAGO STYLE CONFERENCES: Author. "Title." Paper presented at Conference, Location, Date. -->
+            {% if post.authors %}{{ post.authors }}. {% endif %}
+            "{{ post.title }}." 
+            {% if post.venue %}Paper presented at {{ post.venue }}{% endif %}
+            {% if post.location %}, {{ post.location }}{% endif %}
+            {% if post.date %}, {{ post.date | date: "%B %Y" }}{% endif %}.
+            
+          {% else %}
+            <!-- DEFAULT FORMAT -->
+            {% if post.authors %}{{ post.authors }}. {% endif %}
+            {% if post.category == "books" %}<em>{{ post.title }}</em>{% else %}"{{ post.title }}"{% endif %}
+            {% if post.venue %}. <em>{{ post.venue }}</em>{% endif %}
+            {% if post.date %}, {{ post.date | date: "%Y" }}{% endif %}.
+          {% endif %}
+        </div>
+        
+        {% if post.excerpt %}
+          <div class="excerpt">{{ post.excerpt }}</div>
         {% endif %}
-      </header>
-
-      {% if page.authors or page.venue or page.date %}
-        <div class="publication-meta">
-          <h3>Publication Information</h3>
-          
-          <div class="citation-info">
-            {% if page.authors %}
-              <p><strong>Authors:</strong> {{ page.authors }}</p>
+        
+        {% if post.paperurl and post.paperurl != "#" or post.slidesurl or post.bibtexurl or post.url %}
+          <div class="links">
+            {% if post.paperurl and post.paperurl != "#" %}
+              <a href="{{ post.paperurl }}">Paper</a>
             {% endif %}
-            
-            {% if page.venue %}
-              <p><strong>Published in:</strong> {{ page.venue }}</p>
+            {% if post.slidesurl %}
+              <a href="{{ post.slidesurl }}">Slides</a>
             {% endif %}
-            
-            {% if page.date %}
-              <p><strong>Year:</strong> {{ page.date | date: "%Y" }}</p>
+            {% if post.bibtexurl %}
+              <a href="{{ post.bibtexurl }}">BibTeX</a>
             {% endif %}
-            
-            {% if page.citation %}
-              <p><strong>Citation:</strong> {{ page.citation }}</p>
+            {% if post.url %}
+              <a href="{{ post.url | relative_url }}">Details</a>
             {% endif %}
           </div>
-          
-          {% if page.paperurl or page.slidesurl or page.bibtexurl %}
-            <div class="links">
-              {% if page.paperurl and page.paperurl != "#" %}
-                <a href="{{ page.paperurl }}">Download Paper</a>
-              {% endif %}
-              {% if page.slidesurl %}
-                <a href="{{ page.slidesurl }}">Download Slides</a>
-              {% endif %}
-              {% if page.bibtexurl %}
-                <a href="{{ page.bibtexurl }}">Download BibTeX</a>
-              {% endif %}
-            </div>
+        {% endif %}
+      </div>
+    {% endfor %}
+  {% endfor %}
+  
+{% else %}
+  <!-- Fallback if no categories are defined -->
+  {% for post in site.publications reversed %}
+    <div class="publication-item">
+      <div class="citation">
+        {% if post.category == "books" %}
+          {% if post.authors %}{{ post.authors }}. {% endif %}
+          <em>{{ post.title }}</em>. 
+          {% if post.place %}{{ post.place }}: {% endif %}
+          {% if post.venue %}{{ post.venue }}, {% endif %}
+          {% if post.date %}{{ post.date | date: "%Y" }}.{% endif %}
+        {% else %}
+          {% if post.authors %}{{ post.authors }}. {% endif %}
+          "{{ post.title }}." 
+          {% if post.venue %}<em>{{ post.venue }}</em>{% endif %}
+          {% if post.date %}, {{ post.date | date: "%Y" }}{% endif %}.
+        {% endif %}
+      </div>
+      
+      {% if post.excerpt %}
+        <div class="excerpt">{{ post.excerpt }}</div>
+      {% endif %}
+      
+      {% if post.paperurl and post.paperurl != "#" or post.slidesurl or post.bibtexurl or post.url %}
+        <div class="links">
+          {% if post.paperurl and post.paperurl != "#" %}
+            <a href="{{ post.paperurl }}">Paper</a>
+          {% endif %}
+          {% if post.slidesurl %}
+            <a href="{{ post.slidesurl }}">Slides</a>
+          {% endif %}
+          {% if post.bibtexurl %}
+            <a href="{{ post.bibtexurl }}">BibTeX</a>
+          {% endif %}
+          {% if post.url %}
+            <a href="{{ post.url | relative_url }}">Details</a>
           {% endif %}
         </div>
       {% endif %}
-
-      <section class="page__content" itemprop="text">
-        {{ content }}
-      </section>
     </div>
-  </article>
+  {% endfor %}
+{% endif %}
+
+<div class="research-area-section">
+  <h2>Publications by Research Area</h2>
+  
+  <div class="research-area-list">
+    <div class="research-area-item">
+      <h4>Democratic Theory & Social Epistemology</h4>
+      <ul>
+        {% for post in site.publications %}
+          {% if post.tags contains "democracy" or post.tags contains "epistemic" or post.title contains "Democracy" or post.title contains "Jury" %}
+            <li>{{ post.title }} ({{ post.date | date: "%Y" }})</li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+    
+    <div class="research-area-item">
+      <h4>Environmental Ethics</h4>
+      <ul>
+        {% for post in site.publications %}
+          {% if post.tags contains "environment" or post.title contains "Climate" or post.title contains "Environmental" %}
+            <li>{{ post.title }} ({{ post.date | date: "%Y" }})</li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+    
+    <div class="research-area-item">
+      <h4>Technology & Justice</h4>
+      <ul>
+        {% for post in site.publications %}
+          {% if post.tags contains "technology" or post.tags contains "AI" or post.title contains "Big Data" %}
+            <li>{{ post.title }} ({{ post.date | date: "%Y" }})</li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+    
+    <div class="research-area-item">
+      <h4>Philosophy of Social Science</h4>
+      <ul>
+        {% for post in site.publications %}
+          {% if post.tags contains "methodology" or post.tags contains "philosophy-of-science" or post.title contains "Methodological" %}
+            <li>{{ post.title }} ({{ post.date | date: "%Y" }})</li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
 </div>
