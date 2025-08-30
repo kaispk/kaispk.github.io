@@ -1,0 +1,63 @@
+---
+layout: single-no-sidebar
+title: "Publications"
+permalink: /publications/
+author_profile: false
+---
+
+<style>
+.publication { margin-bottom: 20px; font-size: 0.9em; }
+.publication .citation { color: #333; }
+.publication .excerpt { color: #666; margin: 8px 0; font-style: italic; }
+.publication .links { margin-top: 8px; }
+.publication .links a { color: #3498db; margin-right: 10px; text-decoration: none; }
+.category-header { border-bottom: 2px solid #3498db; margin: 30px 0 15px 0; color: #2c3e50; }
+</style>
+
+<h2 class="category-header">Books</h2>
+{% for post in site.publications reversed %}
+{% if post.category == "books" %}
+<div class="publication">
+  <div class="citation">
+    {% if post.authors %}{{ post.authors }}. {% endif %}<em>{{ post.title }}</em>. {% if post.venue %}{{ post.venue }}, {% endif %}{% if post.date %}{{ post.date | date: "%Y" }}.{% endif %}
+  </div>
+  {% if post.excerpt %}<div class="excerpt">{{ post.excerpt }}</div>{% endif %}
+  <div class="links">
+    {% if post.paperurl and post.paperurl != "#" %}<a href="{{ post.paperurl }}">Link</a>{% endif %}
+    {% if post.url %}<a href="{{ post.url | relative_url }}">Details</a>{% endif %}
+  </div>
+</div>
+{% endif %}
+{% endfor %}
+
+<h2 class="category-header">Journal Articles</h2>
+{% for post in site.publications reversed %}
+{% if post.category == "manuscripts" %}
+<div class="publication">
+  <div class="citation">
+    {% if post.authors %}{{ post.authors }}. {% endif %}"{{ post.title }}." {% if post.venue %}<em>{{ post.venue }}</em>{% endif %}{% if post.date %} ({{ post.date | date: "%Y" }}).{% endif %}
+  </div>
+  {% if post.excerpt %}<div class="excerpt">{{ post.excerpt }}</div>{% endif %}
+  <div class="links">
+    {% if post.paperurl and post.paperurl != "#" %}<a href="{{ post.paperurl }}">Link</a>{% endif %}
+    {% if post.url %}<a href="{{ post.url | relative_url }}">Details</a>{% endif %}
+  </div>
+</div>
+{% endif %}
+{% endfor %}
+
+<h2 class="category-header">Encyclopedia Entries</h2>
+{% for post in site.publications reversed %}
+{% if post.category == "encyclopedia" %}
+<div class="publication">
+  <div class="citation">
+    {% if post.authors %}{{ post.authors }}. {% endif %}"{{ post.title }}." {% if post.venue %}<em>{{ post.venue }}</em>.{% endif %}{% if post.date %} {{ post.date | date: "%Y" }}.{% endif %}
+  </div>
+  {% if post.excerpt %}<div class="excerpt">{{ post.excerpt }}</div>{% endif %}
+  <div class="links">
+    {% if post.paperurl and post.paperurl != "#" %}<a href="{{ post.paperurl }}">Link</a>{% endif %}
+    {% if post.url %}<a href="{{ post.url | relative_url }}">Details</a>{% endif %}
+  </div>
+</div>
+{% endif %}
+{% endfor %}
