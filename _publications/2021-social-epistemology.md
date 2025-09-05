@@ -11,7 +11,7 @@ authors: 'Dietrich, Franz and Spiekermann, Kai'
 pages: '579-589'
 place: 'Cambridge (MA) and London'
 editor: 'Knauff, Markus and Spohn, Wolfgang'
-paperurl: 'https://shs.hal.science/halshs-02431971'
+paperurl: 'http://eprints.lse.ac.uk/103789/'
 citation: 'Dietrich, Franz and Spiekermann, Kai. "Social Epistemology." <em>The Handbook of Rationality</em>  (2021): 579-589.'
 tags: ["democracy", "political-theory"]
 ---
