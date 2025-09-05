@@ -4,7 +4,7 @@ collection: publications
 category: chapters
 layout: publication
 permalink: /publication/2021-jury-theorems
-excerpt: 'Jury theorems are mathematical theorems about the ability ofcollectives to make correct decisions. Several jury theorems carry theoptimistic message that, in suitable circumstances, “crowds arewise”: ...'
+excerpt: 'Jury theorems are mathematical theorems about the ability ofcollectives to make correct decisions. Several jury theorems carry the optimistic message that, in suitable circumstances, “crowds arewise”: ...'
 date: 2021-01-01
 venue: 'The Stanford Encyclopedia of Philosophy'
 authors: 'Dietrich, Franz and Spiekermann, Kai'
