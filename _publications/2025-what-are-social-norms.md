@@ -8,7 +8,7 @@ excerpt: 'Description of this publication'
 date: 2025-01-01
 venue: 'Unpublished manuscript'
 authors: 'Dietrich, Franz and Spiekermann, Kai'
-citation: 'Dietrich, Franz and Spiekermann, Kai. "What Are Social Norms?." <em>Unpublished manuscript</em>  (2025).'
+citation: 'Dietrich, Franz and Spiekermann, Kai (2025) "What Are Social Norms?", Unpublished manuscript.'
 tags: ["democracy", "political-theory"]
 ---
 

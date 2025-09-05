@@ -8,7 +8,7 @@ date: 2020-01-01
 venue: 'Politics, Philosophy and Economics'
 authors: 'Kai Spiekermann'
 paperurl: 'http://eprints.lse.ac.uk/101304/'
-citation: 'Spiekermann, Kai. (2020). "Epistemic Network Injustice." Politics, Philosophy and Economics 19(1): 83-101.'
+citation: 'Spiekermann, Kai (2020) "Epistemic Network Injustice", Politics, Philosophy and Economics, 19(1), pp. 83-101.'
 ---
 
 This paper analyzes how network structures can create epistemic injustices in knowledge production and dissemination, examining the implications for democratic theory and practice.

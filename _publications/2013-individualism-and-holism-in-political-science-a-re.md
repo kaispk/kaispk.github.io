@@ -11,7 +11,8 @@ authors: 'List, Christian and Spiekermann, Kai'
 volume: '107'
 issue: '4'
 pages: '629–643'
-citation: 'List, Christian and Spiekermann, Kai. "Individualism and Holism in Political Science: A Reconciliation." <em>American Political Science Review</em> 107, no. 4 (2013): 629–643.'
+paperurl: 'http://eprints.lse.ac.uk/46543/'
+citation: 'List, Christian and Spiekermann, Kai (2013) "Individualism and Holism in Political Science: A Reconciliation", American Political Science Review, 107(4), pp. 629–643.'
 tags: ["democracy", "political-theory"]
 ---
 

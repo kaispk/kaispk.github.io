@@ -12,7 +12,7 @@ volume: '96'
 pages: '170–183'
 doi: '10.1016/j.geb.2015.11.007'
 paperurl: 'http://eprints.lse.ac.uk/64643/'
-citation: 'Spiekermann, Kai and Weiss, Arne. "Objective and subjective compliance: A norm-based explanation of \'moral wiggle room\'." <em>Games and Economic Behavior</em> 96 (2016): 170–183.'
+citation: 'Spiekermann, Kai and Weiss, Arne (2016) "Objective and subjective compliance: A norm-based explanation of \'moral wiggle room\'", Games and Economic Behavior, 96, pp. 170–183.'
 tags: ["democracy", "political-theory"]
 ---
 

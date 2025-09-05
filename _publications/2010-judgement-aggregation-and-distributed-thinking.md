@@ -12,7 +12,8 @@ volume: '25'
 issue: '4'
 pages: '401–412'
 doi: '10.1007/s00146-010-0273-7'
-citation: 'Spiekermann, Kai. "Judgement Aggregation and Distributed Thinking." <em>AI and Society</em> 25, no. 4 (2010): 401–412.'
+paperurl: 'http://eprints.lse.ac.uk/30689/'
+citation: 'Spiekermann, Kai (2010) "Judgement Aggregation and Distributed Thinking", AI and Society, 25(4), pp. 401–412.'
 tags: ["democracy", "political-theory"]
 ---
 

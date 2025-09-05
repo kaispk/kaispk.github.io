@@ -11,8 +11,8 @@ authors: 'Spiekermann, Kai'
 volume: '12'
 issue: '1'
 pages: '293–302'
-paperurl: 'http://personal.lse.ac.uk/spiekerk/papers/Beyond_Humanity_web.pdf'
-citation: 'Spiekermann, Kai. "Beyond humanity?: the ethics of biomedical enhancement." <em>Revista de Direito Sanitário</em> 12, no. 1 (2011): 293–302.'
+paperurl: 'http://eprints.lse.ac.uk/58036/'
+citation: 'Spiekermann, Kai (2011) "Beyond humanity?: the ethics of biomedical enhancement", Revista de Direito Sanitário, 12(1), pp. 293–302.'
 tags: ["democracy", "political-theory"]
 ---
 

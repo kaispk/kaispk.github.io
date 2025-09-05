@@ -9,8 +9,8 @@ date: 2021-01-01
 venue: 'The Stanford Encyclopedia of Philosophy'
 authors: 'Dietrich, Franz and Spiekermann, Kai'
 editor: 'Zalta, Edward N.'
-paperurl: 'https://plato.stanford.edu/archives/win2021/entries/jury-theorems/'
-citation: 'Dietrich, Franz and Spiekermann, Kai. "Jury Theorems." <em>The Stanford Encyclopedia of Philosophy</em>  (2021).'
+paperurl: 'http://eprints.lse.ac.uk/112712/'
+citation: 'Dietrich, Franz and Spiekermann, Kai (2021) "Jury Theorems", The Stanford Encyclopedia of Philosophy.'
 tags: ["democracy", "political-theory"]
 ---
 

@@ -10,7 +10,8 @@ venue: 'Facets and Practices of State Building'
 authors: 'Spiekermann, Kai'
 place: 'Leiden and Boston'
 editor: 'Raue, Julia and Sutter, Patrick'
-citation: 'Spiekermann, Kai. "What the Neighbours Think: State Building, Esteem, and Political Culture." <em>Facets and Practices of State Building</em>  (2009).'
+paperurl: 'http://eprints.lse.ac.uk/26736/'
+citation: 'Spiekermann, Kai (2009) "What the Neighbours Think: State Building, Esteem, and Political Culture", in Facets and Practices of State Building.'
 tags: ["democracy", "political-theory"]
 ---
 

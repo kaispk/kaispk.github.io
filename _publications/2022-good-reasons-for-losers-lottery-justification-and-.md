@@ -12,7 +12,7 @@ volume: '38'
 issue: '1'
 pages: '108–131'
 paperurl: 'http://eprints.lse.ac.uk/108513/'
-citation: 'Spiekermann, Kai. "Good reasons for losers: lottery justification and social risk." <em>Economics & Philosophy</em> 38, no. 1 (2022): 108–131.'
+citation: 'Spiekermann, Kai (2022) "Good reasons for losers: lottery justification and social risk", Economics & Philosophy, 38(1), pp. 108-131.'
 tags: ["democracy", "political-theory"]
 ---
 

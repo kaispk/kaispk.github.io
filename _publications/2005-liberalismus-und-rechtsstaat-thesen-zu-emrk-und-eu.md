@@ -11,7 +11,7 @@ authors: 'Good, Paul-Lukas and Spiekermann, Kai'
 pages: '19–42'
 place: 'Bern'
 editor: 'Sutter, Patrick and Zelger, Ulrich'
-citation: 'Good, Paul-Lukas and Spiekermann, Kai. "Liberalismus und Rechtsstaat: Thesen zu EMRK und europäischer Identität." <em>30 Jahre EMRK-Beitritt der Schweiz: Erfahrungen und Perspektiven</em>  (2005): 19–42.'
+citation: 'Good, Paul-Lukas and Spiekermann, Kai (2005) "Liberalismus und Rechtsstaat: Thesen zu EMRK und europäischer Identität", in 30 Jahre EMRK-Beitritt der Schweiz: Erfahrungen und Perspektiven, pp. 19–42.'
 tags: ["democracy", "political-theory"]
 ---
 

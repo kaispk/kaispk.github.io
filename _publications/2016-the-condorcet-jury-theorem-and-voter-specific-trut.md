@@ -11,7 +11,7 @@ authors: 'List, Christian and Spiekermann, Kai'
 pages: '219–231'
 place: 'Chichester'
 editor: 'Kornblith, Hilary and McLaughlin, Brian'
-citation: 'List, Christian and Spiekermann, Kai. "The Condorcet Jury Theorem and Voter-Specific Truth." <em>Goldman and His Critics</em>  (2016): 219–231.'
+citation: 'List, Christian and Spiekermann, Kai (2016) "The Condorcet Jury Theorem and Voter-Specific Truth", in Goldman and His Critics, pp. 219–231.'
 tags: ["democracy", "political-theory"]
 ---
 

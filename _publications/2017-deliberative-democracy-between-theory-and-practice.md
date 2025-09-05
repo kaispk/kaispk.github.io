@@ -8,7 +8,7 @@ excerpt: 'Description of this publication'
 date: 2017-01-01
 authors: 'Spiekermann, Kai'
 paperurl: 'https://philpapers.org/rec/SPINMA'
-citation: 'Spiekermann, Kai. "Deliberative Democracy between Theory and Practice."  (2017).'
+citation: 'Spiekermann, Kai (2017) "Deliberative Democracy between Theory and Practice".'
 tags: ["democracy", "political-theory"]
 ---
 

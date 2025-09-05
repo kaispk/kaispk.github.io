@@ -13,7 +13,7 @@ issue: '01'
 pages: '174–181'
 doi: '10.1017/S0266267114000467'
 paperurl: 'http://journals.cambridge.org/abstract_S0266267114000467'
-citation: 'Spiekermann, Kai. "Explaining Norms, Geoffrey Brennan, Lina Eriksson, Robert E. Goodin and Nicholas Southwood. Oxford University Press, 2013, vii + 290 pages.." <em>Economics and Philosophy</em> 31, no. 01 (2015): 174–181.'
+citation: 'Spiekermann, Kai (2015) "Explaining Norms, Geoffrey Brennan, Lina Eriksson, Robert E. Goodin and Nicholas Southwood. Oxford University Press, 2013, vii + 290 pages", Economics and Philosophy, 31(01), pp. 174–181.'
 tags: ["democracy", "political-theory"]
 ---
 

@@ -12,7 +12,8 @@ volume: '15'
 issue: '2'
 pages: '187-193'
 doi: '10.1177/1478929917693641'
-citation: 'Spiekermann, K.. "Reduction of Surprise: Some Thoughts on Dowding\'s Conception of Explanation." <em>Political Studies Review</em> 15, no. 2 (2017): 187-193.'
+paperurl: 'http://eprints.lse.ac.uk/68935/'
+citation: 'Spiekermann, K. (2017) "Reduction of Surprise: Some Thoughts on Dowding\'s Conception of Explanation", Political Studies Review, 15(2), pp. 187-193.'
 tags: ["democracy", "political-theory"]
 ---
 

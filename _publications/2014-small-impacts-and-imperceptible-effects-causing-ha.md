@@ -13,7 +13,7 @@ issue: '1'
 pages: '75–90'
 doi: '10.1111/misp.12017'
 paperurl: 'http://eprints.lse.ac.uk/57951/'
-citation: 'Spiekermann, Kai. "Small Impacts and Imperceptible Effects: Causing Harm with Others." <em>Midwest Studies in Philosophy</em> 38, no. 1 (2014): 75–90.'
+citation: 'Spiekermann, Kai (2014) "Small Impacts and Imperceptible Effects: Causing Harm with Others", Midwest Studies in Philosophy, 38(1), pp. 75–90.'
 tags: ["democracy", "political-theory"]
 ---
 

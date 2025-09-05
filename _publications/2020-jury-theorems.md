@@ -10,8 +10,8 @@ venue: 'The Routledge Handbook of Social Epistemology'
 authors: 'Dietrich, Franz and Spiekermann, Kai'
 place: 'New York and London'
 editor: 'Fricker, Miranda and Graham, Peter J. and Henderson, Peter and Pedersen, Nikolai J.L.L.'
-paperurl: 'http://www.kaispiekermann.net/s/DietrichSpiekermann-JuryTheorems.pdf'
-citation: 'Dietrich, Franz and Spiekermann, Kai. "Jury Theorems." <em>The Routledge Handbook of Social Epistemology</em>  (2020).'
+paperurl: 'http://eprints.lse.ac.uk/101162/'
+citation: 'Dietrich, Franz and Spiekermann, Kai (2020) "Jury Theorems", in The Routledge Handbook of Social Epistemology.'
 tags: ["democracy", "political-theory"]
 ---
 

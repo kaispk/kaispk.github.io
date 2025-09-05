@@ -12,7 +12,8 @@ volume: '6'
 issue: '3'
 pages: '303–324'
 doi: '10.1177/1470594X07081300'
-citation: 'Spiekermann, Kai. "Translucency, Assortation, and Information Pooling: How Groups Solve Social Dilemmas." <em>Politics, Philosophy & Economics</em> 6, no. 3 (2007): 303–324.'
+paperurl: 'http://eprints.lse.ac.uk/26737/'
+citation: 'Spiekermann, Kai (2007) "Translucency, Assortation, and Information Pooling: How Groups Solve Social Dilemmas", Politics, Philosophy & Economics, 6(3), pp. 303–324.'
 tags: ["democracy", "political-theory"]
 ---
 

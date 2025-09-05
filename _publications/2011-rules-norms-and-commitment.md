@@ -11,7 +11,8 @@ authors: 'Peter, Fabienne and Spiekermann, Kai'
 pages: '216–232'
 place: 'London'
 editor: 'Jarvie, Ian and Zamora-Bonilla, Jesus'
-citation: 'Peter, Fabienne and Spiekermann, Kai. "Rules, Norms, and Commitment." <em>Handbook of Philosophy of Social Sciences</em>  (2011): 216–232.'
+paperurl: 'http://eprints.lse.ac.uk/30665/'
+citation: 'Peter, Fabienne and Spiekermann, Kai (2011) "Rules, Norms, and Commitment", in Handbook of Philosophy of Social Sciences, pp. 216–232.'
 tags: ["democracy", "political-theory"]
 ---
 

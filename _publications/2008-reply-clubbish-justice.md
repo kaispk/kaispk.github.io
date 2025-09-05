@@ -11,7 +11,8 @@ authors: 'Spiekermann, Kai'
 volume: '7'
 issue: '4'
 pages: '447–453'
-citation: 'Spiekermann, Kai. "Reply: Clubbish Justice." <em>Politics, Philosophy & Economics</em> 7, no. 4 (2008): 447–453.'
+paperurl: 'http://eprints.lse.ac.uk/26738/'
+citation: 'Spiekermann, Kai (2008) "Reply: Clubbish Justice", Politics, Philosophy & Economics, 7(4), pp. 447–453.'
 tags: ["democracy", "political-theory"]
 ---
 

@@ -12,7 +12,8 @@ volume: '4'
 issue: '3'
 pages: '303–325'
 doi: '10.1017/S1755773911000245'
-citation: 'Goodin, Robert E and Spiekermann, Kai. "Epistemic Aspects of Representative Government." <em>European Political Science Review</em> 4, no. 3 (2012): 303–325.'
+paperurl: 'http://eprints.lse.ac.uk/41542/'
+citation: 'Goodin, Robert E and Spiekermann, Kai (2012) "Epistemic Aspects of Representative Government", European Political Science Review, 4(3), pp. 303–325.'
 tags: ["democracy", "political-theory"]
 ---
 

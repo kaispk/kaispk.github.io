@@ -12,8 +12,8 @@ volume: '18'
 issue: '1'
 pages: '1-25'
 doi: '10.1163/17455243_20203008'
-paperurl: 'https://brill.com/view/journals/jmp/18/1/article-p1_1.xml'
-citation: 'Slavny, Adam and Spiekermann, Kai and Lawford-Smith, Holly and Axelsen, David V.. "Directed Reflective Equilibrium: Thought Experiments and How to Use Them." <em>Journal of Moral Philosophy</em> 18, no. 1 (2020): 1-25.'
+paperurl: 'http://eprints.lse.ac.uk/106742/'
+citation: 'Slavny, Adam and Spiekermann, Kai and Lawford-Smith, Holly and Axelsen, David V. (2020) "Directed Reflective Equilibrium: Thought Experiments and How to Use Them", Journal of Moral Philosophy, 18(1), pp. 1-25.'
 tags: ["democracy", "political-theory"]
 ---
 
