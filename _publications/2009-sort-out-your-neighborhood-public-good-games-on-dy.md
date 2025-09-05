@@ -1,10 +1,10 @@
 ---
-title: "Sort out your Neighborhood: Public Good Games on Dynamic Networks"
+title: 'Sort out your Neighborhood: Public Good Games on Dynamic Networks'
 collection: publications
 category: manuscripts
 layout: publication
 permalink: /publication/2009-sort-out-your-neighborhood-public-good-games-on-dy
-excerpt: 'Axelrod (The evolution of cooperation, 1984) and others explain how cooperation can emerge in repeated 2-person prisoner\'s dilemmas. But in public good games with anonymous contributions, we expect a...'
+excerpt: 'Axelrod (The evolution of cooperation, 1984) and others explain how cooperation can emerge in repeated 2-person prisoner's dilemmas. But in public good games with anonymous contributions, we expect a...'
 date: 2009-01-01
 venue: 'Synthese'
 authors: 'Spiekermann, K.P.'
