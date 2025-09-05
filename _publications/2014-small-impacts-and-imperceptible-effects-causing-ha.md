@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 layout: publication
 permalink: /publication/2014-small-impacts-and-imperceptible-effects-causing-ha
-excerpt: 'Description of this publication'
+excerpt: 'The problem of imperceptible effects arises because very small changes are not perceived, even if many of these small changes together are. If the normatively relevant consequences of an action, holding all other actions fixed, cannot be perceived, we are challenged to explain what makes the action wrong. I argue that an action can be wrong because it can cause an effect together with other actions.'
 date: 2014-01-01
 venue: 'Midwest Studies in Philosophy'
 authors: 'Spiekermann, Kai'

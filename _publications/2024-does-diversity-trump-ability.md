@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 layout: publication
 permalink: /publication/2024-does-diversity-trump-ability
-excerpt: 'Description of this publication'
+excerpt: 'A roundtable discussion on the diversity trumps ability (DTA) theorem by economists Lu Hong and Scott E. Page. Examines whether cognitively more diverse groups are better at solving problems than less diverse groups, with debate on the combining of diverse heuristics in cooperative search processes and whether deliberation is always beneficial.'
 date: 2024-01-01
 venue: 'Politische Vierteljahresschrift'
 authors: 'Niesen, Peter and Spiekermann, Kai and Herzog, Lisa and Girard, Charles and Vogelmann, Frieder'

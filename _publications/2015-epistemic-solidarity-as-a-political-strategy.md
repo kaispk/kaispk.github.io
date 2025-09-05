@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 layout: publication
 permalink: /publication/2015-epistemic-solidarity-as-a-political-strategy
-excerpt: 'Description of this publication'
+excerpt: 'Solidarity is supposed to facilitate collective action. We argue that it can also help overcome false consciousness. Groups practice epistemic solidarity if they pool information about what is in their true interest and how to vote accordingly. The more numerous Masses can in this way overcome the Elites, but only if they are minimally confident with whom they share the same interests.'
 date: 2015-01-01
 venue: 'Episteme'
 authors: 'Goodin, Robert E and Spiekermann, Kai'

@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 layout: publication
 permalink: /publication/2025-deliberation-and-the-wisdom-of-crowds
-excerpt: 'Does pre-voting group deliberation improve majority outcomes? To address this question, we develop a probabilistic model of opinion formation and deliberation. Two new jury theorems, one pre-deliberat...'
+excerpt: 'Does pre-voting group deliberation improve majority outcomes? To address this question, we develop a probabilistic model of opinion formation and deliberation. Two new jury theorems, one pre-deliberation and one post-deliberation, suggest that deliberation is beneficial. Successful deliberation mitigates three voting failures: overcounting widespread evidence, neglecting evidential inequality, and neglecting evidential complementarity.'
 date: 2025-01-01
 venue: 'Economic Theory'
 authors: 'Dietrich, Franz and Spiekermann, Kai'

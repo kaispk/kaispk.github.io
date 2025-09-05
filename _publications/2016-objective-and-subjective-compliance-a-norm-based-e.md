@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 layout: publication
 permalink: /publication/2016-objective-and-subjective-compliance-a-norm-based-e
-excerpt: 'Description of this publication'
+excerpt: 'We propose a cognitive-dissonance model of norm compliance to identify conditions for selfishly biased information acquisition. The model distinguishes between objective norm compliers, for whom the right action is a function of the state of the world, and subjective norm compliers, for whom it is a function of their belief. The source of moral wiggle room is not belief manipulation, but the coarseness of normative prescriptions under conditions of uncertainty.'
 date: 2016-01-01
 venue: 'Games and Economic Behavior'
 authors: 'Spiekermann, Kai and Weiss, Arne'
