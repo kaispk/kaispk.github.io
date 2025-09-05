@@ -1,7 +1,7 @@
 ---
 title: "Framing Democracy: A Behavioral Approach to Democratic Theory"
 collection: publications
-category: working
+category: reviews
 layout: publication
 permalink: /publication/2013-framing-democracy-a-behavioral-approach-to-democra
 excerpt: 'Description of this publication'

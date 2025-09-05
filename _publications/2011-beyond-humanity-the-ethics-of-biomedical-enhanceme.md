@@ -1,7 +1,7 @@
 ---
 title: "Beyond humanity?: the ethics of biomedical enhancement"
 collection: publications
-category: manuscripts
+category: reviews
 layout: publication
 permalink: /publication/2011-beyond-humanity-the-ethics-of-biomedical-enhanceme
 excerpt: 'Description of this publication'

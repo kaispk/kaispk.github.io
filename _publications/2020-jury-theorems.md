@@ -1,7 +1,7 @@
 ---
 title: "Jury Theorems"
 collection: publications
-category: chapters
+category: encyclopedia
 layout: publication
 permalink: /publication/2020-jury-theorems
 excerpt: 'Description of this publication'

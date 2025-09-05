@@ -1,7 +1,7 @@
 ---
 title: "Benson, Jonathan. Intelligent Democracy: Answering the New Democratic Scepticism. Oxford: Oxford University Press, 2024. Pp. 272. $90.00 (cloth)."
 collection: publications
-category: manuscripts
+category: reviews
 layout: publication
 permalink: /publication/2025-benson-jonathan-intelligent-democracy-answering-th
 excerpt: 'Description of this publication'

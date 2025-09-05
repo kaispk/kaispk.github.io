@@ -1,7 +1,7 @@
 ---
 title: "Explaining Norms, Geoffrey Brennan, Lina Eriksson, Robert E. Goodin and Nicholas Southwood. Oxford University Press, 2013, vii + 290 pages."
 collection: publications
-category: manuscripts
+category: reviews
 layout: publication
 permalink: /publication/2015-explaining-norms-geoffrey-brennan-lina-eriksson-ro
 excerpt: 'Description of this publication'

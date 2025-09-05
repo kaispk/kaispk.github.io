@@ -9,7 +9,8 @@ date: 2025-01-01
 venue: 'The Oxford Handbook of Intergenerational Ethics'
 pages: '416-431'
 place: 'Oxford'
-editor: 'Gardiner, Stephen M. and Spiekermann, Kai'
+editor: 'Gardiner, Stephen M.'
+author: 'Spiekermann, Kai'
 isbn: '978-0-19-088193-1'
 citation: '"Irreversible Loss." <em>The Oxford Handbook of Intergenerational Ethics</em>  (2025): 416-431.'
 tags: ["democracy", "political-theory"]

@@ -1,7 +1,7 @@
 ---
 title: "Deliberative Democracy between Theory and Practice"
 collection: publications
-category: working
+category: reviews
 layout: publication
 permalink: /publication/2017-deliberative-democracy-between-theory-and-practice
 excerpt: 'Description of this publication'

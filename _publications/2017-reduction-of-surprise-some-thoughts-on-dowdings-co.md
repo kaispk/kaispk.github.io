@@ -1,7 +1,7 @@
 ---
 title: "Reduction of Surprise: Some Thoughts on Dowding's Conception of Explanation"
 collection: publications
-category: manuscripts
+category: reviews
 layout: publication
 permalink: /publication/2017-reduction-of-surprise-some-thoughts-on-dowdings-co
 excerpt: '© 2017, © The Author(s) 2017. Keith Dowding\'s book is a tour de force through some important debates in the philosophy of the social sciences. In this short comment I focus on the role of explanation...'

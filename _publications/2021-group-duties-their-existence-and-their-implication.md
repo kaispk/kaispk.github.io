@@ -1,7 +1,7 @@
 ---
 title: "Group duties: Their existence and their implications for individuals, by Stephanie Collins"
 collection: publications
-category: working
+category: reviews
 layout: publication
 permalink: /publication/2021-group-duties-their-existence-and-their-implication
 excerpt: 'Description of this publication'
