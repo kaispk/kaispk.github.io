@@ -85,7 +85,7 @@ publication_category:
     title: 'Book chapters'
   encyclopedia:
     title: 'Encyclopedia Entries'
-  review:
+  reviews:
     title: 'Book Reviews'
   working:
     title: 'Working Papers'
