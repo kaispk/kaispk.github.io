@@ -104,15 +104,15 @@ author_profile: false
       <div class="publication-item">
         <div class="citation">
           {% if post.category == "books" %}
-            {% if post.authors %}{{ post.authors }}. {% endif %}<em>{{ post.title }}</em>. {% if post.place %}{{ post.place }}: {% endif %}{% if post.venue %}{{ post.venue }}, {% endif %}{% if post.date %}{{ post.date | date: "%Y" }}.{% endif %}
+            {% if post.authors %}{{ post.authors }} {% endif %}{% if post.date %}({{ post.date | date: "%Y" }}) {% endif %}<em>{{ post.title }}</em>{% if post.place %}, {{ post.place }}{% endif %}{% if post.venue %}: {{ post.venue }}{% endif %}.
           {% elsif post.category == "manuscripts" %}
-            {% if post.authors %}{{ post.authors }}. {% endif %}"{{ post.title }}." {% if post.venue %}<em>{{ post.venue }}</em>{% endif %}{% if post.volume %} {{ post.volume }}{% endif %}{% if post.issue %}, no. {{ post.issue }}{% endif %}{% if post.date %} ({{ post.date | date: "%Y" }}){% endif %}{% if post.pages %}: {{ post.pages }}{% endif %}.
+            {% if post.authors %}{{ post.authors }} {% endif %}{% if post.date %}({{ post.date | date: "%Y" }}) {% endif %}'{{ post.title }}'{% if post.venue %}, <em>{{ post.venue }}</em>{% endif %}{% if post.volume %}, {{ post.volume }}{% endif %}{% if post.issue %}({{ post.issue }}){% endif %}{% if post.pages %}, pp. {{ post.pages }}{% endif %}.
           {% elsif post.category == "encyclopedia" %}
-            {% if post.authors %}{{ post.authors }}. {% endif %}"{{ post.title }}." {% if post.venue %}In <em>{{ post.venue }}</em>.{% endif %}{% if post.editor %} Edited by {{ post.editor }}.{% endif %}{% if post.date %} {{ post.date | date: "%Y" }}.{% endif %}
+            {% if post.authors %}{{ post.authors }} {% endif %}{% if post.date %}({{ post.date | date: "%Y" }}) {% endif %}'{{ post.title }}'{% if post.venue %}, in <em>{{ post.venue }}</em>{% endif %}{% if post.editor %}, edited by {{ post.editor }}{% endif %}.
           {% elsif post.category == "chapters" %}
-            {% if post.authors %}{{ post.authors }}. {% endif %}"{{ post.title }}." {% if post.booktitle %}In <em>{{ post.booktitle }}</em>{% endif %}{% if post.editor %}, edited by {{ post.editor }}{% endif %}{% if post.pages %}, {{ post.pages }}{% endif %}. {% if post.place %}{{ post.place }}: {% endif %}{% if post.venue %}{{ post.venue }}{% endif %}{% if post.date %}, {{ post.date | date: "%Y" }}{% endif %}.
+            {% if post.authors %}{{ post.authors }} {% endif %}{% if post.date %}({{ post.date | date: "%Y" }}) {% endif %}'{{ post.title }}'{% if post.booktitle %}, in <em>{{ post.booktitle }}</em>{% endif %}{% if post.editor %}, edited by {{ post.editor }}{% endif %}{% if post.pages %}, pp. {{ post.pages }}{% endif %}{% if post.place %}, {{ post.place }}{% endif %}{% if post.venue %}: {{ post.venue }}{% endif %}.
           {% else %}
-            {% if post.authors %}{{ post.authors }}. {% endif %}{% if post.category == "books" %}<em>{{ post.title }}</em>{% else %}"{{ post.title }}"{% endif %}{% if post.venue %}. <em>{{ post.venue }}</em>{% endif %}{% if post.date %}, {{ post.date | date: "%Y" }}{% endif %}.
+            {% if post.authors %}{{ post.authors }} {% endif %}{% if post.date %}({{ post.date | date: "%Y" }}) {% endif %}{% if post.category == "books" %}<em>{{ post.title }}</em>{% else %}'{{ post.title }}'{% endif %}{% if post.venue %}, <em>{{ post.venue }}</em>{% endif %}.
           {% endif %}
         </div>
         
@@ -158,9 +158,9 @@ author_profile: false
     <div class="publication-item">
       <div class="citation">
         {% if post.category == "books" %}
-          {% if post.authors %}{{ post.authors }}. {% endif %}<em>{{ post.title }}</em>. {% if post.place %}{{ post.place }}: {% endif %}{% if post.venue %}{{ post.venue }}, {% endif %}{% if post.date %}{{ post.date | date: "%Y" }}.{% endif %}
+          {% if post.authors %}{{ post.authors }} {% endif %}{% if post.date %}({{ post.date | date: "%Y" }}) {% endif %}<em>{{ post.title }}</em>{% if post.place %}, {{ post.place }}{% endif %}{% if post.venue %}: {{ post.venue }}{% endif %}.
         {% else %}
-          {% if post.authors %}{{ post.authors }}. {% endif %}"{{ post.title }}." {% if post.venue %}<em>{{ post.venue }}</em>{% endif %}{% if post.date %}, {{ post.date | date: "%Y" }}{% endif %}.
+          {% if post.authors %}{{ post.authors }} {% endif %}{% if post.date %}({{ post.date | date: "%Y" }}) {% endif %}'{{ post.title }}'{% if post.venue %}, <em>{{ post.venue }}</em>{% endif %}.
         {% endif %}
       </div>
       
