@@ -1,7 +1,7 @@
 ---
 title: "Social Epistemology"
 collection: publications
-category: chapters
+category: encyclopedia
 layout: publication
 permalink: /publication/2025-social-epistemology
 excerpt: 'Description of this publication'
