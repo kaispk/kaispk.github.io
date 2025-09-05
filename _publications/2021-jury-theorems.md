@@ -1,7 +1,7 @@
 ---
 title: "Jury Theorems"
 collection: publications
-category: encycploedia
+category: encyclopedia
 layout: publication
 permalink: /publication/2021-jury-theorems
 excerpt: 'Jury theorems are mathematical theorems about the ability ofcollectives to make correct decisions. Several jury theorems carry the optimistic message that, in suitable circumstances, “crowds arewise”: ...'

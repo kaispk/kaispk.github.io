@@ -10,7 +10,6 @@ venue: 'Oxford University Press'
 authors: 'Goodin, Robert E. and Kai Spiekermann'
 place: 'Oxford'
 isbn: '978-0-19-882345-2'
-paperurl: 'https://www.kaispiekermann.net/blog-native/epistemic-theory-of-democracy'
 citation: 'Goodin, Robert E., and Kai Spiekermann. *An Epistemic Theory of Democracy*. Oxford: Oxford University Press, 2018.'
 tags: ["featured", "democracy", "epistemic", "book"]
 ---
