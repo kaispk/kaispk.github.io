@@ -17,4 +17,3 @@ citation: 'Spiekermann, Kai (2014) "Small Impacts and Imperceptible Effects: Cau
 tags: ["democracy", "political-theory"]
 ---
 
-Add description of this publication here.

@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 layout: publication
 permalink: /publication/2008-reply-clubbish-justice
-excerpt: 'Description of this publication'
+excerpt: 'Replying to my earlier article "Translucency, Assortation, and Information Pooling: How Groups Solve Social Dilemmas", Robert Goodin examines the normative implications of the rule "cooperate with those whose inclusion benefits the larger scheme of cooperation", and gives several reasons for why the conversion of justice into a club good is normatively unappealing. This reply to Goodin discusses whether the rule leads to an exclusion of poor agents, whether a group should hire agents to detect free-riders, and how a group should deal with naive cooperators. The rule can be defended as an enforcement mechanism in some cases, but it is normatively unappealing as a theory of justice.'
 date: 2008-01-01
 venue: 'Politics, Philosophy & Economics'
 authors: 'Spiekermann, Kai'
@@ -16,4 +16,4 @@ citation: 'Spiekermann, Kai (2008) "Reply: Clubbish Justice", Politics, Philosop
 tags: ["democracy", "political-theory"]
 ---
 
-Add description of this publication here.
+Replying to my earlier article "Translucency, Assortation, and Information Pooling: How Groups Solve Social Dilemmas", Robert Goodin examines the normative implications of the rule "cooperate with those whose inclusion benefits the larger scheme of cooperation", and gives several reasons for why the conversion of justice into a club good is normatively unappealing. This reply to Goodin discusses whether the rule leads to an exclusion of poor agents, whether a group should hire agents to detect free-riders, and how a group should deal with naive cooperators. The rule can be defended as an enforcement mechanism in some cases, but it is normatively unappealing as a theory of justice.

@@ -4,7 +4,7 @@ collection: publications
 category: chapters
 layout: publication
 permalink: /publication/2011-rules-norms-and-commitment
-excerpt: 'Description of this publication'
+excerpt: 'This handbook provides a wide-ranging and authoritative overview of the main philosophical currents and traditions at work in the social sciences today. It explores fundamental issues like ontology, epistemology, methodology, and key concepts such as paradigm, empiricism, agency, power, and causality. The chapter on Rules, Norms, and Commitment examines what is the relationship between the social sciences and the natural sciences and where today''s dominant approaches to doing social science come from.'
 date: 2011-01-01
 venue: 'Handbook of Philosophy of Social Sciences'
 authors: 'Peter, Fabienne and Spiekermann, Kai'
@@ -16,4 +16,4 @@ citation: 'Peter, Fabienne and Spiekermann, Kai (2011) "Rules, Norms, and Commit
 tags: ["democracy", "political-theory"]
 ---
 
-Add description of this publication here.
+This handbook provides a wide-ranging and authoritative overview of the main philosophical currents and traditions at work in the social sciences today. It explores fundamental issues like ontology, epistemology, methodology, and key concepts such as paradigm, empiricism, agency, power, and causality. The chapter on Rules, Norms, and Commitment examines what is the relationship between the social sciences and the natural sciences and where today's dominant approaches to doing social science come from.

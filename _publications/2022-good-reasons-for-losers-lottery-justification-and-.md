@@ -16,4 +16,3 @@ citation: 'Spiekermann, Kai (2022) "Good reasons for losers: lottery justificati
 tags: ["democracy", "political-theory"]
 ---
 
-Add description of this publication here.

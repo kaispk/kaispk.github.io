@@ -4,7 +4,7 @@ collection: publications
 category: working
 layout: publication
 permalink: /publication/2025-what-are-social-norms
-excerpt: 'Description of this publication'
+excerpt: ''
 date: 2025-01-01
 venue: 'Unpublished manuscript'
 authors: 'Dietrich, Franz and Spiekermann, Kai'

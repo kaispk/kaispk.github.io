@@ -4,7 +4,7 @@ collection: publications
 category: reviews
 layout: publication
 permalink: /publication/2015-explaining-norms-geoffrey-brennan-lina-eriksson-ro
-excerpt: 'Description of this publication'
+excerpt: ''
 date: 2015-01-01
 venue: 'Economics and Philosophy'
 authors: 'Spiekermann, Kai'
@@ -17,4 +17,3 @@ citation: 'Spiekermann, Kai (2015) "Explaining Norms, Geoffrey Brennan, Lina Eri
 tags: ["democracy", "political-theory"]
 ---
 
-Add description of this publication here.

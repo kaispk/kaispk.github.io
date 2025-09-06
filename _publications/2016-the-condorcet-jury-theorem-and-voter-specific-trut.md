@@ -4,7 +4,7 @@ collection: publications
 category: chapters
 layout: publication
 permalink: /publication/2016-the-condorcet-jury-theorem-and-voter-specific-trut
-excerpt: 'Description of this publication'
+excerpt: ''
 date: 2016-01-01
 venue: 'Goldman and His Critics'
 authors: 'List, Christian and Spiekermann, Kai'
@@ -15,4 +15,3 @@ citation: 'List, Christian and Spiekermann, Kai (2016) "The Condorcet Jury Theor
 tags: ["democracy", "political-theory"]
 ---
 
-Add description of this publication here.

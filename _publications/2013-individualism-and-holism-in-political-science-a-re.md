@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 layout: publication
 permalink: /publication/2013-individualism-and-holism-in-political-science-a-re
-excerpt: 'Description of this publication'
+excerpt: ''
 date: 2013-01-01
 venue: 'American Political Science Review'
 authors: 'List, Christian and Spiekermann, Kai'
@@ -16,4 +16,3 @@ citation: 'List, Christian and Spiekermann, Kai (2013) "Individualism and Holism
 tags: ["democracy", "political-theory"]
 ---
 
-Add description of this publication here.

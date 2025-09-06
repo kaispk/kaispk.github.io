@@ -16,4 +16,3 @@ citation: 'Spiekermann, Kai and Weiss, Arne (2016) "Objective and subjective com
 tags: ["democracy", "political-theory"]
 ---
 
-Add description of this publication here.

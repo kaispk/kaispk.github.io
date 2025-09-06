@@ -16,4 +16,3 @@ citation: 'Goodin, Robert E and Spiekermann, Kai (2015) "Epistemic Solidarity as
 tags: ["democracy", "political-theory"]
 ---
 
-Add description of this publication here.

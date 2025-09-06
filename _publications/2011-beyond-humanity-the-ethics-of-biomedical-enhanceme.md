@@ -4,7 +4,7 @@ collection: publications
 category: reviews
 layout: publication
 permalink: /publication/2011-beyond-humanity-the-ethics-of-biomedical-enhanceme
-excerpt: 'Description of this publication'
+excerpt: ''
 date: 2011-01-01
 venue: 'Revista de Direito Sanitário'
 authors: 'Spiekermann, Kai'
@@ -16,4 +16,3 @@ citation: 'Spiekermann, Kai (2011) "Beyond humanity?: the ethics of biomedical e
 tags: ["democracy", "political-theory"]
 ---
 
-Add description of this publication here.

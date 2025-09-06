@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 layout: publication
 permalink: /publication/2021-big-data-justice-a-case-for-regulating-the-global-
-excerpt: 'Description of this publication'
+excerpt: ''
 date: 2021-01-01
 venue: 'The Journal of Politics'
 authors: 'Spiekermann, Kai and Slavny, Adam and Axelsen, David V. and Lawford-Smith, Holly'
@@ -17,4 +17,3 @@ citation: 'Spiekermann, Kai and Slavny, Adam and Axelsen, David V. and Lawford-S
 tags: ["democracy", "political-theory"]
 ---
 
-Add description of this publication here.

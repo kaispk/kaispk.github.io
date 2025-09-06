@@ -4,7 +4,7 @@ collection: publications
 category: chapters
 layout: publication
 permalink: /publication/2005-liberalismus-und-rechtsstaat-thesen-zu-emrk-und-eu
-excerpt: 'Description of this publication'
+excerpt: ''
 date: 2005-01-01
 venue: '30 Jahre EMRK-Beitritt der Schweiz: Erfahrungen und Perspektiven'
 authors: 'Good, Paul-Lukas and Spiekermann, Kai'
@@ -15,4 +15,3 @@ citation: 'Good, Paul-Lukas and Spiekermann, Kai (2005) "Liberalismus und Rechts
 tags: ["democracy", "political-theory"]
 ---
 
-Add description of this publication here.

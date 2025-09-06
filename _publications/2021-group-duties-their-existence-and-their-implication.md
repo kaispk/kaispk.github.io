@@ -4,7 +4,7 @@ collection: publications
 category: reviews
 layout: publication
 permalink: /publication/2021-group-duties-their-existence-and-their-implication
-excerpt: 'Description of this publication'
+excerpt: ''
 date: 2021-01-01
 authors: 'Spiekermann, Kai'
 paperurl: 'http://eprints.lse.ac.uk/103089/1/Book_Review_Group_Duties_Spiekermann_web.pdf'
@@ -12,4 +12,3 @@ citation: 'Spiekermann, Kai (2021) "Group duties: Their existence and their impl
 tags: ["democracy", "political-theory"]
 ---
 
-Add description of this publication here.

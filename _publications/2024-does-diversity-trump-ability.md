@@ -17,4 +17,3 @@ citation: 'Niesen, Peter and Spiekermann, Kai and Herzog, Lisa and Girard, Charl
 tags: ["democracy", "political-theory"]
 ---
 
-Add description of this publication here.

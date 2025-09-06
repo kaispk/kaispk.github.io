@@ -4,7 +4,7 @@ collection: publications
 category: chapters
 layout: publication
 permalink: /publication/2016-four-types-of-moral-wriggle-room-uncovering-mechan
-excerpt: 'Description of this publication'
+excerpt: ''
 date: 2016-01-01
 venue: 'The Epistemic Life of Groups: Essays in the Epistemology of Collectives'
 authors: 'Spiekermann, Kai'
@@ -16,4 +16,3 @@ citation: 'Spiekermann, Kai (2016) "Four Types of Moral Wriggle Room: Uncovering
 tags: ["democracy", "political-theory"]
 ---
 
-Add description of this publication here.

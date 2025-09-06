@@ -4,7 +4,7 @@ collection: publications
 category: reviews
 layout: publication
 permalink: /publication/2025-benson-jonathan-intelligent-democracy-answering-th
-excerpt: 'Description of this publication'
+excerpt: ''
 date: 2025-01-01
 venue: 'Ethics'
 authors: 'Spiekermann, Kai'
@@ -16,4 +16,3 @@ citation: 'Spiekermann, Kai (2025) "Benson, Jonathan. Intelligent Democracy: Ans
 tags: ["democracy", "political-theory"]
 ---
 
-Add description of this publication here.
