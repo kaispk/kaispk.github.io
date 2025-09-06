@@ -15,7 +15,7 @@ I teach courses in political philosophy, democratic theory, environmental ethics
 This course provides an introduction to the philosophical and methodological foundations of political theory, giving students a conceptual toolbox for addressing research questions in the field. The course introduces methodological debates in contemporary political theory, explores links between political theory and related disciplines, and familiarizes students with different approaches to political theorizing.
 
 **GV4H5: The Political Philosophy of Environmental Change**  
-*Graduate course • Winter Term • Department of Government • LSE*
+*MSc course • Winter Term • Department of Government • LSE*
 
 This course examines climate change from a political-philosophical perspective, drawing on analytical political philosophy, political theory, and environmental ethics. It addresses both theoretical questions (nature of climate change as a philosophical problem, intergenerational justice, climate injustice) and practical applications (motivating emissions reduction, designing democratic institutions for climate policy, strategies for social change).
 
@@ -29,23 +29,14 @@ An investigation of contemporary questions in applied political theory with a fo
 
 This course helps PhD students develop research designs, teaching them to identify research questions, choose feasible data collection strategies, and match analytical methods to project aims. The course provides essential methodological training for doctoral research in political science.
 
-## Teaching Philosophy
-
-My teaching emphasizes:
-
-- **Critical engagement** with primary texts and contemporary debates
-- **Rigorous argumentation** and clear philosophical writing
-- **Interdisciplinary approaches** connecting philosophy with social science
-- **Application** of theoretical insights to real-world problems
-- **Student participation** through discussion, presentations, and collaborative work
 
 ## Supervision
 
 I regularly supervise:
 
-- **PhD dissertations** in political philosophy and democratic theory
-- **MSc dissertations** in political theory and public policy
-- **Undergraduate dissertations** in government and philosophy
+- **PhD dissertations** 
+- **MSc dissertations** 
+- **Undergraduate dissertations** 
 
 For PhD supervision information, see my [supervision guidelines](/phd-supervision/).
 
@@ -55,17 +46,3 @@ For PhD supervision information, see my [supervision guidelines](/phd-supervisio
 
 I maintain regular office hours for student consultations and am available for academic advising on research projects, career planning, and graduate school applications.
 
-## Additional Teaching
-
-{% for post in site.teaching reversed %}
-**{{ post.title }}**  
-{% if post.type %}*{{ post.type }}*{% endif %}{% if post.venue %}{% if post.type %} • {% endif %}*{{ post.venue }}*{% endif %}{% if post.date %} • {{ post.date | date: "%Y" }}{% endif %}
-
-{% if post.excerpt %}{{ post.excerpt }}{% endif %}
-
-{% if post.paperurl or post.slidesurl %}
-{% if post.paperurl %}[Course Materials]({{ post.paperurl }}) {% endif %}
-{% if post.slidesurl %}[Slides]({{ post.slidesurl }}){% endif %}
-{% endif %}
-
-{% endfor %}
