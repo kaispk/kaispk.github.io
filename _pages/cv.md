@@ -7,6 +7,8 @@ redirect_from:
   - /resume
 ---
 
+<img src="/images/Kai Kretschmer event2.jpg" alt="Kai Spiekermann" style="float: right; width: 250px; margin: 0 0 20px 20px; border-radius: 8px;">
+
 ## Current Position
 
 **Professor of Political Philosophy**  
