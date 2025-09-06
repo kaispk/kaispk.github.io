@@ -12,7 +12,7 @@ volume: '42'
 issue: '3'
 pages: '555–571'
 doi: '10.1017/S000712341100041X'
-paperurl: 'http://eprints.lse.ac.uk/44438/'
+paperurl: 'http://eprints.lse.ac.uk/44438/1/Spiekermann_Goodin_Courts-of-many-minds_2012.pdf'
 citation: 'Spiekermann, K. and Goodin, R.E. (2012) "Courts of many minds", British Journal of Political Science, 42(3), pp. 555–571.'
 tags: ["democracy", "political-theory"]
 ---

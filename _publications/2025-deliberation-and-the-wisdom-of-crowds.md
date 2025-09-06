@@ -12,7 +12,7 @@ volume: '79'
 issue: '2'
 pages: '603-655'
 doi: '10.1007/s00199-024-01595-4'
-paperurl: 'http://eprints.lse.ac.uk/123889/'
+paperurl: 'http://eprints.lse.ac.uk/123889/3/Spiekermann_deliberation-and-the-wisdom--published.pdf'
 citation: 'Dietrich, Franz and Spiekermann, Kai (2025) "Deliberation and the wisdom of crowds", Economic Theory, 79(2), pp. 603-655.'
 tags: ["democracy", "political-theory"]
 ---

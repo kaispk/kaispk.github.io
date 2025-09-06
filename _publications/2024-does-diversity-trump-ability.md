@@ -12,7 +12,7 @@ volume: '65'
 issue: '4'
 pages: '785-805'
 doi: '10.1007/s11615-024-00550-1'
-paperurl: 'http://eprints.lse.ac.uk/123838/'
+paperurl: 'http://eprints.lse.ac.uk/123838/3/Spiekermann_does-diversity-trump-ability--published.pdf'
 citation: 'Niesen, Peter and Spiekermann, Kai and Herzog, Lisa and Girard, Charles and Vogelmann, Frieder (2024) "Does Diversity Trump Ability?", Politische Vierteljahresschrift, 65(4), pp. 785-805.'
 tags: ["democracy", "political-theory"]
 ---

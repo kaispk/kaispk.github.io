@@ -12,7 +12,7 @@ volume: '168'
 issue: '2'
 pages: '273–294'
 doi: '10.1007/s11229-008-9424-5'
-paperurl: 'http://eprints.lse.ac.uk/26739/'
+paperurl: 'http://eprints.lse.ac.uk/26739/1/Spiekermann_Sort-out-your-neighbourhood_2009.pdf'
 citation: 'Spiekermann, K.P. (2009) "Sort out your Neighborhood: Public Good Games on Dynamic Networks", Synthese, 168(2), pp. 273–294.'
 tags: ["democracy", "political-theory"]
 ---

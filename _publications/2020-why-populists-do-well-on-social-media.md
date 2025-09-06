@@ -12,7 +12,7 @@ volume: '12'
 issue: '02'
 pages: '50-71'
 doi: '10.21248/gjn.12.02.203'
-paperurl: 'http://eprints.lse.ac.uk/106740/'
+paperurl: 'http://eprints.lse.ac.uk/106740/3/Spiekermann_Why_populists_do_well_media_2021.pdf'
 citation: 'Spiekermann, Kai (2020) "Why Populists Do Well on Social Media", Global Justice : Theory Practice Rhetoric, 12(02), pp. 50-71.'
 tags: ["democracy", "political-theory"]
 ---

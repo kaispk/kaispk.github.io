@@ -12,7 +12,7 @@ place: 'Oxford'
 editor: 'Gardiner, Stephen M.'
 author: 'Spiekermann, Kai'
 isbn: '978-0-19-088193-1'
-paperurl: 'http://eprints.lse.ac.uk/117592/'
+paperurl: 'http://eprints.lse.ac.uk/117592/1/Spiekermann_irreversible_loss_accepted.pdf'
 citation: 'Spiekermann, Kai (2025) "Irreversible Loss", in The Oxford Handbook of Intergenerational Ethics, pp. 416-431.'
 tags: ["democracy", "political-theory"]
 ---

@@ -11,7 +11,7 @@ volume: '19'
 issue: '1'
 pages: '83-101'
 doi: '10.1177/1470594X19872505'
-paperurl: 'http://eprints.lse.ac.uk/101304/'
+paperurl: 'http://eprints.lse.ac.uk/101304/1/Epistemic_network_injustice.pdf'
 citation: 'Spiekermann, Kai (2020) "Epistemic Network Injustice", Politics, Philosophy and Economics, 19(1), pp. 83-101.'
 ---
 

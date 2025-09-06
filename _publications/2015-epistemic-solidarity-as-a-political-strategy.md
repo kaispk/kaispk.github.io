@@ -11,7 +11,7 @@ authors: 'Goodin, Robert E and Spiekermann, Kai'
 volume: '12'
 issue: '4'
 pages: '439–457'
-paperurl: 'http://eprints.lse.ac.uk/61819/'
+paperurl: 'http://eprints.lse.ac.uk/61819/1/__lse.ac.uk_storage_LIBRARY_Secondary_libfile_shared_repository_Content_Spiekermann%2C%20K_Epistemic%20solidarity_Spiekermann_Epistemic%20solidarity_2015.pdf'
 citation: 'Goodin, Robert E and Spiekermann, Kai (2015) "Epistemic Solidarity as a Political Strategy", Episteme, 12(4), pp. 439–457.'
 tags: ["democracy", "political-theory"]
 ---

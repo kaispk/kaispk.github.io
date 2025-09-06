@@ -7,7 +7,7 @@ permalink: /publication/2021-group-duties-their-existence-and-their-implication
 excerpt: 'Description of this publication'
 date: 2021-01-01
 authors: 'Spiekermann, Kai'
-paperurl: 'http://eprints.lse.ac.uk/103089/'
+paperurl: 'http://eprints.lse.ac.uk/103089/1/Book_Review_Group_Duties_Spiekermann_web.pdf'
 citation: 'Spiekermann, Kai (2021) "Group duties: Their existence and their implications for individuals, by Stephanie Collins".'
 tags: ["democracy", "political-theory"]
 ---
