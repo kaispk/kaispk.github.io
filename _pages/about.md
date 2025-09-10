@@ -31,8 +31,12 @@ Among my research interests are group decisions, social epistemology (and especi
 ## Recent News
 
 <div class="news-item">
+If you are considering applying for a PhD and are thinking of me as your supervisor, please read [this guidance](/phd-supervision/) first.
+</div>
+
+<div class="news-item">
 <strong>2024-06-30 - NSF RCN Conference</strong>
-Research associate at the NSF RCN grant for "Augmenting Intelligence through Collective Learning", which was now sadly revoked. The final conference will be in Vienna from June 30.
+Research associate at the NSF RCN grant for "Augmenting Intelligence through Collective Learning", which was now sadly revoked. The final conference was in Vienna at the end of June.
 </div>
 
 <div class="news-item">
@@ -50,20 +54,5 @@ LSE won a <a href="https://www.lse.ac.uk/News/Latest-news-from-LSE/2024/a-Januar
 The <a href="https://direct.mit.edu/books/oa-edited-volume/5525/The-Handbook-of-Rationality">Handbook of Rationality</a> is now open access!
 </div>
 
-## Research Areas
 
-My work sits at the intersection of political philosophy, epistemology, and social science methodology. Key areas include:
 
-- **Democratic Theory** - Epistemic justifications of democracy, group decision-making processes
-- **Social Epistemology** - How groups form beliefs and knowledge, collective intelligence
-- **Environmental Ethics** - Ethics of climate change, intergenerational justice, environmental policy
-- **Philosophy of Social Science** - Methodology in political theory and political science
-- **Politics, Philosophy & Economics** - Interdisciplinary approaches to social and political problems
-
-## Current Projects
-
-I'm currently working on several collaborative research projects funded by the Open Society Foundation, examining cohesion and deliberation in democratic decision-making, and protection against severe uncertainty in policy contexts.
-
-## PhD Supervision
-
-If you are considering applying for a PhD and are thinking of me as your supervisor, please read [this guidance](/phd-supervision/) first.
