@@ -29,10 +29,10 @@ author:
   # Academic websites
   academia         : # URL
   arxiv            : # URL
-  googlescholar    : "https://scholar.google.com/citations?user=YOUR_SCHOLAR_ID" # Update with your actual Google Scholar ID
+  googlescholar    : "https://scholar.google.co.uk/citations?hl=en&user=BbnhF1QAAAAJ" # Update with your actual Google Scholar ID
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "http://orcid.org/YOUR_ORCID_ID" # Update with your actual ORCID
+  orcid            : "https://orcid.org/my-orcid?orcid=0000-0003-4983-5589" # Update with your actual ORCID
   semantic         : # URL
   pubmed           : # URL
   researchgate     : # URL
@@ -48,7 +48,7 @@ author:
 
   # Social media
   artstation       : # Username
-  bluesky          : # Username
+  bluesky          : @kspiekermann.bsky.social
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
