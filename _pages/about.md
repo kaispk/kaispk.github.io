@@ -31,7 +31,7 @@ Among my research interests are group decisions, social epistemology (and especi
 ## Recent News
 
 <div class="news-item">
-If you are considering applying for a PhD and are thinking of me as your supervisor, please read <a href="/phd-supervision">this guidance</a> first.
+If you are considering applying for a PhD and are thinking of me as your supervisor, please read [this guidance] (/phd-supervision) first.
 </div>
 
 <div class="news-item">
