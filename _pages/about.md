@@ -17,7 +17,10 @@ redirect_from:
 
 I'm a Professor of Political Philosophy in the Department of Government at the London School of Economics. I work in democratic theory, the philosophy of the social sciences and topics relating to politics, philosophy and economics (PPE) more generally.
 
-Among my research interests are group decisions, social epistemology (and especially epistemic justifications of democracy), the ethics of environmental change, and the methodology of political theory and political science.
+Among my research interests are group decisions, social epistemology
+(and especially epistemic justifications of democracy), the ethics of
+environmental change, and the methodology of political theory and
+political science. More information is [here](/research).
 
 <div style="clear: both;"></div>
 
@@ -31,7 +34,7 @@ Among my research interests are group decisions, social epistemology (and especi
 ## Recent News
 
 <div class="news-item">
-If you are considering applying for a PhD and are thinking of me as your supervisor, please read [this guidance](https://kaispk.github.io/phd-supervision/) first.
+If you are considering applying for a PhD and are thinking of me as your supervisor, please read <a href="https://kaispk.github.io/phd-supervision/">this guidance</a> first.
 </div>
 
 <div class="news-item">
