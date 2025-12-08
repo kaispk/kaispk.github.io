@@ -7,6 +7,7 @@ permalink: /publication/2025-generative-democracy
 excerpt: 'This book examines the Condorcet Jury Theorem and how its assumptions can be applicable to the real world. It will use the theorem to assess various familiar political practices and alternative institutional arrangements, revealing how best to take advantage of the truth-tracking potential of majoritarian democracy.'
 date: '2026-12-31'
 authors: 'Dietrich, Franz and Kai Spiekermann'
+venue: 'Book manuscript in preparation'
 citation: 'Dietrich, Frand and Spiekermann, Kai (in development, likely publication 2026) Generative Democracy: New Foundations for Democratic Theory'
 tags: ["featured", "democracy", "epistemic", "book"]
 ---
@@ -22,4 +23,6 @@ functioning and stability of any social order.
 This book will present a “generative” theory of democracy: a value
 theory of institutions that emphasises effects of institutions through
 mental changes, so-called “generative effects”.
+
+
 

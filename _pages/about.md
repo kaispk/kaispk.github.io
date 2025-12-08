@@ -52,7 +52,7 @@ Research associate at the NSF RCN grant for "Augmenting Intelligence through Col
 
 <div class="news-item">
 <strong>2024 - Open Society Foundation Grant</strong>
-LSE won a <a href="https://www.lse.ac.uk/News/Latest-news-from-LSE/2024/a-January-2024/Envisioning-an-economy-that-works-for-all">transformational grant from the Open Society Foundation on Cohesive Capitalism</a>. I am working with <a href="https://personal.lse.ac.uk/voorhoev/">Alex Voorhoeve</a> and <a href="https://www.lse.ac.uk/cpnss/people/richard-bradley">Richard Bradley</a> and Suzanne Bloks <a href"https://suzannebloks.com/">Suzanne Bloks</a> on two projects, one on <a href="https://www.lse.ac.uk/cpnss/research/cohesion-and-deliberative-decision-making">cohesion and deliberation</a>, the other on protection against severe uncertainty.
+LSE won a <a href="https://www.lse.ac.uk/News/Latest-news-from-LSE/2024/a-January-2024/Envisioning-an-economy-that-works-for-all">transformational grant from the Open Society Foundation on Cohesive Capitalism</a>. I am working with <a href="https://personal.lse.ac.uk/voorhoev/">Alex Voorhoeve</a> and <a href="https://www.lse.ac.uk/cpnss/people/richard-bradley">Richard Bradley</a> and Suzanne Bloks <a href="https://suzannebloks.com/">Suzanne Bloks</a> on two projects, one on <a href="https://www.lse.ac.uk/cpnss/research/cohesion-and-deliberative-decision-making">cohesion and deliberation</a>, the other on protection against severe uncertainty.
 </div>
 
 <div class="news-item">

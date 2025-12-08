@@ -4,7 +4,7 @@ collection: publications
 category: books
 layout: publication
 permalink: /publication/2018-an-epistemic-theory-of-democracy
-excerpt: 'This book examines the Condorcet Jury Theorem and how its assumptions can be applicable to the real world. It will use the theorem to assess various familiar political practices and alternative institutional arrangements, revealing how best to take advantage of the truth-tracking potential of majoritarian democracy.'
+excerpt: 'This book examines the Condorcet Jury Theorem and how its assumptions can be applicable to the real world. It will use the theorem to assess various familiar political practices and alternative institutional arrangements, revealing how best to take advantage of the truth-tracking potential of majoritarian democracy. <br/><img src='\book-cover.jpeg'> '
 date: 2018-01-01
 venue: 'Oxford University Press'
 authors: 'Goodin, Robert E. and Kai Spiekermann'
