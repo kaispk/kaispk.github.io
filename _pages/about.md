@@ -15,7 +15,10 @@ redirect_from:
 <div class="caption">Dr Kai Spiekermann, LSE</div>
 </div>
 
-I'm a Professor of Political Philosophy in the Department of Government at the London School of Economics. I work in democratic theory, the philosophy of the social sciences and topics relating to politics, philosophy and economics (PPE) more generally.
+I'm a Professor of Political Philosophy in the Department of
+Government at the London School of Economics. I work in democratic
+theory, the philosophy of the social sciences and topics relating to
+politics, philosophy and economics (PPE) more generally. 
 
 Among my research interests are group decisions, social epistemology
 (and especially epistemic justifications of democracy), the ethics of
@@ -42,14 +45,10 @@ If you are considering applying for a PhD and are thinking of me as your supervi
 Research associate at the NSF RCN grant for "Augmenting Intelligence through Collective Learning", which was now sadly revoked. The final conference was in Vienna at the end of June.
 </div>
 
-<div class="news-item">
-<strong>2024 - Political Philosophy Journal</strong>
-Proud to join the editorial board of the new journal <a href="https://politicalphilosophyjournal.org">Political Philosophy</a>.
-</div>
 
 <div class="news-item">
 <strong>2024 - Open Society Foundation Grant</strong>
-LSE won a <a href="https://www.lse.ac.uk/News/Latest-news-from-LSE/2024/a-January-2024/Envisioning-an-economy-that-works-for-all">transformational grant from the Open Society Foundation on Cohesive Capitalism</a>. I will work with <a href="https://personal.lse.ac.uk/voorhoev/">Alex Voorhoeve</a> and <a href="https://www.lse.ac.uk/cpnss/people/richard-bradley">Richard Bradley</a> on two projects, one on <a href="https://www.lse.ac.uk/cpnss/research/cohesion-and-deliberative-decision-making">cohesion and deliberation</a>, the other on protection against severe uncertainty.
+LSE won a <a href="https://www.lse.ac.uk/News/Latest-news-from-LSE/2024/a-January-2024/Envisioning-an-economy-that-works-for-all">transformational grant from the Open Society Foundation on Cohesive Capitalism</a>. I am working with <a href="https://personal.lse.ac.uk/voorhoev/">Alex Voorhoeve</a> and <a href="https://www.lse.ac.uk/cpnss/people/richard-bradley">Richard Bradley</a> and Suzanne Bloks <a href"https://suzannebloks.com/">Suzanne Bloks</a> on two projects, one on <a href="https://www.lse.ac.uk/cpnss/research/cohesion-and-deliberative-decision-making">cohesion and deliberation</a>, the other on protection against severe uncertainty.
 </div>
 
 <div class="news-item">

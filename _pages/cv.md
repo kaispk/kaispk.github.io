@@ -29,10 +29,13 @@ University of Warwick (2007-2009)
 ## Academic Service
 
 - Section editor (political philosophy) for Ergo, an open access philosophy journal
-- Reviewer activity documented on Publons
+- Frequent reviewer for journals in philosophy, political theory and
+  political science.
 
 ## Prizes
 
+- **2019** APSA’s Ideas, Knowledge, and Politics section best book
+  award for "An Epistemic Theory of Democracy"
 - **2009** Political Studies Association Sir Ernest Barker Prize for best dissertation in Political Theory
 - **2009** Shortlisted for ECPR Jean-Blondel-PhD-Prize
 - **2009** LSE Robert McKenzie PhD Prize
