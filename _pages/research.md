@@ -11,18 +11,6 @@ interested in how groups make decisions and form beliefs, and what
 this means for democratic theory and practice. Broadly speaking, my
 research is situated in the field of PPE - Philosophy, Politics and Economics
 
-## Current Projects
-
-### Cohesion and Deliberative Decision-Making
-*Open Society Foundation Grant (2024-2027)*
-
-Working with Alex Voorhoeve, Richard Bradley and Suzanne Bloks on projects examining cohesion and deliberation in democratic decision-making. This research explores how social cohesion affects the quality of democratic deliberation and collective decision-making.
-
-### Augmenting Intelligence through Collective Learning
-*NSF RCN Associate (2024)*
-
-Research associate at the NSF RCN grant for "Augmenting Intelligence through Collective Learning" examining how groups can enhance their collective intelligence through structured learning processes.
-
 ## Research Areas
 
 ### Democratic Theory
@@ -54,4 +42,14 @@ develop a new theory of lottery fairness, arguing that the fairness of
 lotteries partly depends on the reasons it can provide to the loser of
 the allocation process.
 
+## Current Funding
 
+### Cohesion and Deliberative Decision-Making
+*Open Society Foundation Grant (2024-2027)*
+
+Working with Alex Voorhoeve, Richard Bradley and Suzanne Bloks on projects examining cohesion and deliberation in democratic decision-making. This research explores how social cohesion affects the quality of democratic deliberation and collective decision-making.
+
+### Augmenting Intelligence through Collective Learning
+*NSF RCN Associate (2024)*
+
+Research associate at the NSF RCN grant for "Augmenting Intelligence through Collective Learning" examining how groups can enhance their collective intelligence through structured learning processes.

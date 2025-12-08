@@ -41,6 +41,10 @@ If you are considering applying for a PhD and are thinking of me as your supervi
 </div>
 
 <div class="news-item">
+I will be at the BIAPT Conference in Edinburgh in January 2026. 
+</div>
+
+<div class="news-item">
 <strong>2024-06-30 - NSF RCN Conference</strong>
 Research associate at the NSF RCN grant for "Augmenting Intelligence through Collective Learning", which was now sadly revoked. The final conference was in Vienna at the end of June.
 </div>
