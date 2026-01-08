@@ -41,6 +41,7 @@ If you are considering applying for a PhD and are thinking of me as your supervi
 </div>
 
 <div class="news-item">
+<strong>BIAPT 2026</strong>
 I will be at the BIAPT Conference in Edinburgh in January 2026. 
 </div>
 
