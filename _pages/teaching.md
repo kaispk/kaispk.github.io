@@ -40,6 +40,25 @@ I regularly supervise:
 
 For PhD supervision information, see my [supervision guidelines](/phd-supervision/).
 
+ I am lead supervisor for Yusuf Khan, Emma Obermair, Jack Wilkinson
+ and Luca Marsico. I co-supervise Matt Davies and Jooseppi Räikkönen. My previous PhD students were:
+
+    - Shira Ahissar (2025)
+    
+    - Felix Westeren (2025)
+
+    - Max Afnan (co-supervisor, 2024)
+
+    - Jared Finnegan (co-supervisor, 2019)
+
+    - Fergus Green (2019)
+
+    - Mollie Gerver (2016)
+
+    - Nimrod Kovner (2017)  
+
+    - Simon Beard (co-supervisor)
+
 ## Office Hours
 
 **Office hours:** Please book on the LSE Student Hub app
