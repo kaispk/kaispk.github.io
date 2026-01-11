@@ -10,7 +10,7 @@ title                    : "Kai Spiekermann"
 title_separator          : "-"
 name                     : &name "Kai Spiekermann"
 description              : &description "Professor of Political Philosophy at the London School of Economics. Research in democratic theory, philosophy of social sciences, and politics, philosophy and economics."
-url                      : https://kaispk.github.io # the base hostname & protocol for your site
+url                      : https://kaispiekermann.net # the base hostname & protocol for your site
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "kaispk/kaispk.github.io"
 
