@@ -28,7 +28,7 @@ University of Warwick (2007-2009)
 
 ## Academic Service
 
-- Section editor (political philosophy) for Ergo, an open access philosophy journal
+- Section editor (political philosophy) for [Ergo](https://journals.publishing.umich.edu/ergo/), an open access philosophy journal
 - Frequent reviewer for journals in philosophy, political theory and
   political science.
 
