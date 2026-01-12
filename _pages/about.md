@@ -37,12 +37,13 @@ political science. More information is [here](/research).
 ## Recent News
 
 <div class="news-item">
-If you are considering applying for a PhD and are thinking of me as your supervisor, please read <a href="https://kaispk.github.io/phd-supervision/">this guidance</a> first.
+<strong>PhD Supervision</strong>
+If you are considering applying for a PhD and are thinking of me as your supervisor, please read <a href="https://kaispk.github.io/phd-supervision/">this guidance</a> first. The deadline for the 2026 entry is January 14.
 </div>
 
 <div class="news-item">
 <strong>BIAPT 2026</strong>
-I will be at the BIAPT Conference in Edinburgh in January 2026. 
+I was at the BIAPT Conference in Edinburgh in January 2026, talking about social norms and climate change. 
 </div>
 
 <div class="news-item">
