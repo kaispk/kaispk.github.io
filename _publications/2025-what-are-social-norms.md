@@ -8,7 +8,7 @@ excerpt: 'Many theorists tie social norms to attitudes, such as expectations on 
 date: 2026-01-17
 venue: Economics and Philosopy
 authors: 'Dietrich, Franz and Spiekermann, Kai'
-citation: 'Dietrich, Franz and Spiekermann, Kai (forthcoming) "What Are Social Norms?", _Economics and Philosophy_'
+citation: 'Dietrich, Franz and Spiekermann, Kai (forthcoming) "What Are Social Norms?", Economics and Philosophy'
 paperurl: '../files/DietrichSpiekermann-SocialNorms.pdf'
 tags: ["democracy", "political-theory", "featured"]
 ---
