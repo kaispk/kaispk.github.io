@@ -36,6 +36,42 @@ political science. More information is [here](/research).
 
 ## Recent News
 
+<div id="bluesky-feed"></div>
+
+<script>
+async function loadBlueskyPosts() {
+  const handle = 'kaispiekermann.bsky.social'; // Your Bluesky handle
+  const limit = 2; // Number of posts to show
+  
+  try {
+    // Resolve handle to DID
+    const didRes = await fetch(`https://bsky.social/xrpc/com.atproto.identity.resolveHandle?handle=${handle}`);
+    const { did } = await didRes.json();
+    
+    // Fetch posts
+    const postsRes = await fetch(`https://bsky.social/xrpc/app.bsky.feed.getAuthorFeed?actor=${did}&limit=${limit}`);
+    const data = await postsRes.json();
+    
+    const feed = document.getElementById('bluesky-feed');
+    feed.innerHTML = data.feed.map(item => {
+      const post = item.post;
+      const date = new Date(post.indexedAt).toLocaleDateString();
+      return `
+        <div class="bluesky-post">
+          <p>${post.record.text}</p>
+          <small><a href="https://bsky.app/profile/${handle}/post/${post.uri.split('/').pop()}" target="_blank">${date}</a></small>
+        </div>
+      `;
+    }).join('');
+  } catch (error) {
+    console.error('Error loading Bluesky posts:', error);
+  }
+}
+
+loadBlueskyPosts();
+</script>
+
+
 <div class="news-item">
 <strong>PhD Supervision</strong>
 If you are considering applying for a PhD and are thinking of me as your supervisor, please read <a href="https://kaispk.github.io/phd-supervision/">this guidance</a> first. The deadline for the 2026 entry is January 14.
