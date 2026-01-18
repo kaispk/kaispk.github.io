@@ -7,43 +7,68 @@ author_profile: false
 
 <style>
   .google-scholar-note {
-    margin-bottom: 30px; 
-    padding: 15px; 
-    background: #f8f9fa; 
-    border-radius: 6px; 
+    margin-bottom: 30px;
+    padding: 15px;
+    background: #f8f9fa;
+    border-radius: 6px;
     border-left: 3px solid #3498db;
     font-size: 0.9em;
   }
-  
+
+  html[data-theme="dark"] .google-scholar-note {
+    background: rgba(255, 255, 255, 0.05);
+    color: var(--global-text-color);
+  }
+
   .publication-item {
     margin-bottom: 20px;
     font-size: 0.9em;
     line-height: 1.5;
   }
-  
+
   .publication-item .citation {
     color: #333;
     margin-bottom: 8px;
   }
-  
+
+  html[data-theme="dark"] .publication-item .citation {
+    color: var(--global-text-color);
+  }
+
   .publication-item .authors {
     color: #333;
   }
-  
+
+  html[data-theme="dark"] .publication-item .authors {
+    color: var(--global-text-color);
+  }
+
   .publication-item .title {
     font-weight: 600;
     color: #2c3e50;
   }
-  
+
+  html[data-theme="dark"] .publication-item .title {
+    color: var(--global-text-color);
+  }
+
   .publication-item .venue {
     font-style: italic;
     color: #333;
   }
-  
+
+  html[data-theme="dark"] .publication-item .venue {
+    color: var(--global-text-color);
+  }
+
   .publication-item .year {
     color: #333;
   }
-  
+
+  html[data-theme="dark"] .publication-item .year {
+    color: var(--global-text-color);
+  }
+
   .publication-item .excerpt {
     color: #666;
     margin: 8px 0 8px 20px;
@@ -51,22 +76,30 @@ author_profile: false
     line-height: 1.4;
     font-style: italic;
   }
-  
+
+  html[data-theme="dark"] .publication-item .excerpt {
+    color: var(--global-text-color-light);
+  }
+
   .publication-item .links {
     margin: 5px 0 0 20px;
   }
-  
+
   .publication-item .links a {
     color: #3498db;
     text-decoration: none;
     margin-right: 12px;
     font-size: 0.85em;
   }
-  
+
+  html[data-theme="dark"] .publication-item .links a {
+    color: var(--global-link-color);
+  }
+
   .publication-item .links a:hover {
     text-decoration: underline;
   }
-  
+
   .category-header {
     border-bottom: 2px solid #3498db;
     padding-bottom: 10px;
@@ -74,7 +107,12 @@ author_profile: false
     color: #2c3e50;
     font-size: 1.4em;
   }
-  
+
+  html[data-theme="dark"] .category-header {
+    color: var(--global-text-color);
+    border-bottom-color: var(--global-link-color);
+  }
+
   .category-header:first-of-type {
     margin-top: 20px;
   }

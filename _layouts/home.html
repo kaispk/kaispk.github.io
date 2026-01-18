@@ -39,18 +39,22 @@ layout: compress
         background: white;
         padding: 0;
       }
-      
+
+      html[data-theme="dark"] .main-content {
+        background: transparent;
+      }
+
       .main-content h1 {
         margin-bottom: 20px;
       }
-      
+
       /* Portrait styling */
       .portrait-section {
         float: left;
         margin: 0 25px 20px 0;
         text-align: left;
       }
-      
+
       .portrait-section img {
         max-width: 150px;
         width: 100%;
@@ -59,7 +63,11 @@ layout: compress
         box-shadow: 0 4px 8px rgba(0,0,0,0.1);
         display: block;
       }
-      
+
+      html[data-theme="dark"] .portrait-section img {
+        box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+      }
+
       .portrait-section .caption {
         margin-top: 8px;
         font-size: 0.8em;
@@ -68,6 +76,11 @@ layout: compress
         text-align: center;
         width: 150px;
       }
+
+      html[data-theme="dark"] .portrait-section .caption {
+        color: var(--global-text-color-light);
+      }
+
       .contact-section {
         background: #f8f9fa;
         padding: 20px;
@@ -75,12 +88,21 @@ layout: compress
         margin: 20px 0;
         border-left: 4px solid #3498db;
       }
-      
+
+      html[data-theme="dark"] .contact-section {
+        background: rgba(255, 255, 255, 0.05);
+        border-left-color: var(--global-link-color);
+      }
+
       .contact-section h3 {
         margin-top: 0;
         color: #2c3e50;
       }
-      
+
+      html[data-theme="dark"] .contact-section h3 {
+        color: var(--global-text-color);
+      }
+
       /* Right sidebar for publications */
       .publications-sidebar {
         background: #f8f9fa;
@@ -90,7 +112,11 @@ layout: compress
         position: sticky;
         top: 20px;
       }
-      
+
+      html[data-theme="dark"] .publications-sidebar {
+        background: rgba(255, 255, 255, 0.05);
+      }
+
       .publications-sidebar h3 {
         color: #2c3e50;
         margin-bottom: 20px;
@@ -100,46 +126,74 @@ layout: compress
         border-bottom: none;
         padding-bottom: 0;
       }
-      
+
+      html[data-theme="dark"] .publications-sidebar h3 {
+        color: var(--global-text-color);
+      }
+
       .featured-publication {
         margin-bottom: 15px;
         font-size: 0.9em;
         line-height: 1.4;
       }
-      
+
       .featured-publication .citation {
         color: #333;
         margin-bottom: 3px;
       }
-      
+
+      html[data-theme="dark"] .featured-publication .citation {
+        color: var(--global-text-color);
+      }
+
       .featured-publication .title {
         font-weight: 600;
         color: #2c3e50;
       }
-      
+
+      html[data-theme="dark"] .featured-publication .title {
+        color: var(--global-text-color);
+      }
+
       .featured-publication .authors {
         color: #333;
       }
-      
+
+      html[data-theme="dark"] .featured-publication .authors {
+        color: var(--global-text-color);
+      }
+
       .featured-publication .venue {
         font-style: italic;
         color: #333;
       }
-      
+
+      html[data-theme="dark"] .featured-publication .venue {
+        color: var(--global-text-color);
+      }
+
       .featured-publication .year {
         color: #333;
       }
-      
+
+      html[data-theme="dark"] .featured-publication .year {
+        color: var(--global-text-color);
+      }
+
       .featured-publication a {
         color: #3498db;
         text-decoration: none;
         font-size: 0.85em;
       }
-      
+
+      html[data-theme="dark"] .featured-publication a {
+        color: var(--global-link-color);
+      }
+
       .featured-publication a:hover {
         text-decoration: underline;
       }
-      
+
       /* News items */
       .news-item {
         margin-bottom: 20px;
@@ -149,20 +203,33 @@ layout: compress
         border-left: 3px solid #27ae60;
         font-size: 0.9em;
       }
-      
+
+      html[data-theme="dark"] .news-item {
+        background: rgba(255, 255, 255, 0.05);
+        border-left-color: #27ae60;
+      }
+
       .news-item strong {
         color: #2c3e50;
         display: block;
         margin-bottom: 8px;
         font-size: 0.95em;
       }
-      
+
+      html[data-theme="dark"] .news-item strong {
+        color: var(--global-text-color);
+      }
+
       /* Links */
       a {
         color: #3498db;
         text-decoration: none;
       }
-      
+
+      html[data-theme="dark"] a {
+        color: var(--global-link-color);
+      }
+
       a:hover {
         text-decoration: underline;
       }
