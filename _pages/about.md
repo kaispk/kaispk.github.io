@@ -37,6 +37,11 @@ political science. More information is [here](/research).
 ## Recent News
 
 <div class="news-item">
+<strong>Stanford Encyclopedia of Philosophy</strong>
+I am honoured to join <a href="https://plato.stanford.edu/board.html">SEP's Editorial Board</a>, as subject co-editor for the Philosophy of Social Science.
+</div>
+
+<div class="news-item">
 <strong>What Are Social Norms?</strong>
 Our paper "What Are Social Norms?" is now forthcoming in Economics and Philosophy. It offers a departure from attitude-based accounts of social norms.
 </div>
