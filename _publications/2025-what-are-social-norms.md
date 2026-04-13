@@ -9,7 +9,7 @@ date: 2026-01-17
 venue: Economics and Philosopy
 authors: 'Dietrich, Franz and Spiekermann, Kai'
 citation: 'Dietrich, Franz and Spiekermann, Kai (forthcoming) "What Are Social Norms?", Economics and Philosophy'
-paperurl: '../files/DietrichSpiekermann-SocialNorms.pdf'
+paperurl: 'https://doi.org/10.1017/S0266267126100704'
 tags: ["democracy", "political-theory", "featured"]
 ---
 

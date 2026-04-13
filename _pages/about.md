@@ -36,19 +36,15 @@ political science. More information is [here](/research).
 
 ## Recent News
 
-<div class="news-item">
-<strong>Stanford Encyclopedia of Philosophy</strong>
-I am honoured to join <a href="https://plato.stanford.edu/board.html">SEP's Editorial Board</a>, as subject co-editor for the Philosophy of Social Science.
-</div>
 
 <div class="news-item">
 <strong>What Are Social Norms?</strong>
-Our paper "What Are Social Norms?" is now forthcoming in Economics and Philosophy. It offers a departure from attitude-based accounts of social norms.
+Our paper "What Are Social Norms?" has been published <a href="https://doi.org/10.1017/S0266267126100704">online first</a> in Economics and Philosophy. It offers a departure from attitude-based accounts of social norms.
 </div>
 
 <div class="news-item">
-<strong>Teaching Starts</strong>
-Teaching at LSE starts on January 19. I#,m looking forward to teaching on the philosophy of environmental change and methods in political theory.
+<strong>Stanford Encyclopedia of Philosophy</strong>
+I am honoured to join <a href="https://plato.stanford.edu/board.html">SEP's Editorial Board</a>, as subject co-editor for the Philosophy of Social Science.
 </div>
 
 <div class="news-item">
