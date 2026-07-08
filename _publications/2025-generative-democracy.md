@@ -8,7 +8,7 @@ excerpt: 'This book presents a new framework for democratic theory and instituti
 date: '2026-12-31'
 authors: 'Dietrich, Franz and Kai Spiekermann'
 venue: 'Book manuscript in preparation'
-paperurl: 'files\GenerativeDemocracy-AbstractAndTableOfContents-DietrichSpiekermann.pdf'
+paperurl: 'https://kaispiekermann.net/files/GenerativeDemocracy-AbstractAndTableOfContents-DietrichSpiekermann.pdf'
 citation: 'Dietrich, Frand and Spiekermann, Kai (in development, likely publication 2026) Generative Democracy: New Foundations for Democratic Theory'
 tags: ["featured", "democracy", "epistemic", "book"]
 ---
