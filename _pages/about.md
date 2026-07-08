@@ -36,6 +36,10 @@ political science. More information is [here](/research).
 
 ## Recent News
 
+<div class="news-item">
+<strong>How to Evaluate Institutions?</strong>
+I will give a talk on how to evaluate institutions (based on the joint book manuscript with Franz Dietrich) at the PPE Society London Meeting.
+</div>
 
 <div class="news-item">
 <strong>What Are Social Norms?</strong>
@@ -47,26 +51,7 @@ Our paper "What Are Social Norms?" has been published <a href="https://doi.org/1
 I am honoured to join <a href="https://plato.stanford.edu/board.html">SEP's Editorial Board</a>, as subject co-editor for the Philosophy of Social Science.
 </div>
 
-<div class="news-item">
-<strong>BIAPT 2026</strong>
-I was at the BIAPT Conference in Edinburgh in January 2026, talking about social norms and climate change. 
-</div>
 
-<div class="news-item">
-<strong>2024-06-30 - NSF RCN Conference</strong>
-Research associate at the NSF RCN grant for "Augmenting Intelligence through Collective Learning", which was now sadly revoked. The final conference was in Vienna at the end of June.
-</div>
-
-
-<div class="news-item">
-<strong>2024 - Open Society Foundation Grant</strong>
-LSE won a <a href="https://www.lse.ac.uk/News/Latest-news-from-LSE/2024/a-January-2024/Envisioning-an-economy-that-works-for-all">transformational grant from the Open Society Foundation on Cohesive Capitalism</a>. I am working with <a href="https://personal.lse.ac.uk/voorhoev/">Alex Voorhoeve</a> and <a href="https://www.lse.ac.uk/cpnss/people/richard-bradley">Richard Bradley</a> and Suzanne Bloks <a href="https://suzannebloks.com/">Suzanne Bloks</a> on two projects, one on <a href="https://www.lse.ac.uk/cpnss/research/cohesion-and-deliberative-decision-making">cohesion and deliberation</a>, the other on protection against severe uncertainty.
-</div>
-
-<div class="news-item">
-<strong>2024 - Handbook of Rationality Open Access</strong>
-The <a href="https://direct.mit.edu/books/oa-edited-volume/5525/The-Handbook-of-Rationality">Handbook of Rationality</a> is now open access!
-</div>
 
 
 
