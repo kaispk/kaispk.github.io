@@ -36,9 +36,20 @@ political science. More information is [here](/research).
 
 ## Recent News
 
+
 <div class="news-item">
-<strong>How to Evaluate Institutions?</strong>
-I will give a talk on how to evaluate institutions (based on the joint book manuscript with Franz Dietrich) at the PPE Society London Meeting.
+<strong>Links for New MSc Students</strong>
+The induction slides are available <a href="https://lsecloud-my.sharepoint.com/:b:/g/personal/k_spiekermann_lse_ac_uk/IQB1VVcyWboXS5bhsGOJepKWAaIX8iILJ3_TlaSbTMKrJXo?e=yf7IX5">here</a>. The form for a href="https://forms.cloud.microsoft/e/B2JCPW5w7W">requesting unlisted courses is here.</a>
+</div>
+
+<div class="news-item">
+<strong>Talk in Cambridge</strong>
+I will present my Generative Democracy book project (with Franz Dietrich) at the Cambridge Seminar in Contemporary Political Thought on the 16th of October.
+</div>
+
+<div class="news-item">
+<strong>Visiting Tokyo</strong>
+I just returned from a visit to YTokyo University of Science to present my Generative Democracy Project and exchange views about teaching PPE. 
 </div>
 
 <div class="news-item">
