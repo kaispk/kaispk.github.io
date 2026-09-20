@@ -49,7 +49,7 @@ I will present my Generative Democracy book project (with Franz Dietrich) at the
 
 <div class="news-item">
 <strong>Visiting Tokyo</strong>
-I just returned from a visit to YTokyo University of Science to present my Generative Democracy Project and exchange views about teaching PPE. 
+I just returned from a visit to Tokyo University of Science to present my Generative Democracy Project and exchange views about teaching PPE. 
 </div>
 
 <div class="news-item">
