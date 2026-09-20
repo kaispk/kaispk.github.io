@@ -39,7 +39,7 @@ political science. More information is [here](/research).
 
 <div class="news-item">
 <strong>Links for New MSc Students</strong>
-The induction slides are available <a href="https://lsecloud-my.sharepoint.com/:b:/g/personal/k_spiekermann_lse_ac_uk/IQB1VVcyWboXS5bhsGOJepKWAaIX8iILJ3_TlaSbTMKrJXo?e=yf7IX5">here</a>. The form for a href="https://forms.cloud.microsoft/e/B2JCPW5w7W">requesting unlisted courses is here.</a>
+The induction slides are available <a href="https://lsecloud-my.sharepoint.com/:b:/g/personal/k_spiekermann_lse_ac_uk/IQB1VVcyWboXS5bhsGOJepKWAaIX8iILJ3_TlaSbTMKrJXo?e=yf7IX5">here</a>. The form for <a href="https://forms.cloud.microsoft/e/B2JCPW5w7W">requesting unlisted courses is here.</a>
 </div>
 
 <div class="news-item">
